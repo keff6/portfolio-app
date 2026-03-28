@@ -2,6 +2,12 @@
 
 import { motion } from "framer-motion";
 
+/**
+ * Renders the About Me section with a profile placeholder and bio text.
+ * Uses Framer Motion for scroll-triggered animations.
+ * 
+ * @returns The About section JSX element
+ */
 export default function About() {
   return (
     <section id="about" className="py-24 px-6">

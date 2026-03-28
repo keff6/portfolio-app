@@ -3,6 +3,12 @@
 import { motion } from "framer-motion";
 import { jobs } from "@/data/journey";
 
+/**
+ * Renders the Journey section with a vertical timeline of jobs.
+ * Uses Framer Motion for scroll-triggered animations.
+ * 
+ * @returns The Journey section JSX element
+ */
 export default function Journey() {
   return (
     <section id="journey" className="py-24 px-6 bg-gray-950/50">

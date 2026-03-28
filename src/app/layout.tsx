@@ -11,6 +11,14 @@ export const metadata: Metadata = {
   description: "Portfolio of a passionate full stack developer",
 };
 
+/**
+ * Root layout component that provides the HTML document structure.
+ * Includes the Inter font and dark theme configuration.
+ * 
+ * @param props - Component props
+ * @param props.children - Child components to render
+ * @returns The root layout JSX element
+ */
 export default function RootLayout({
   children,
 }: Readonly<{

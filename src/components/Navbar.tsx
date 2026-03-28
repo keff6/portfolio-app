@@ -10,6 +10,12 @@ const navLinks = [
   { href: "#projects", label: "Projects" },
 ];
 
+/**
+ * Renders the navigation bar with smooth scroll links.
+ * Adds background blur effect when scrolled.
+ * 
+ * @returns The Navbar JSX element
+ */
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -22,6 +28,9 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  /**
+   * Closes the mobile navigation menu when a link is clicked.
+   */
   const handleNavClick = () => {
     setIsOpen(false);
   };

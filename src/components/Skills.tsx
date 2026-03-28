@@ -3,6 +3,13 @@
 import { motion } from "framer-motion";
 import { skills } from "@/data/skills";
 
+/**
+ * Gets the abbreviated initials for a skill name.
+ * Uses a predefined mapping for common skills, falls back to first 2 characters.
+ * 
+ * @param name - The full skill name
+ * @returns The abbreviated initials (e.g., "JS" for "JavaScript")
+ */
 const getInitials = (name: string): string => {
   const exceptions: Record<string, string> = {
     "JavaScript": "JS",
@@ -36,6 +43,12 @@ const getInitials = (name: string): string => {
   return exceptions[name] || name.substring(0, 2).toUpperCase();
 };
 
+/**
+ * Renders the Skills section displaying categorized expertise with icons.
+ * Uses Framer Motion for scroll-triggered animations.
+ * 
+ * @returns The Skills section JSX element
+ */
 export default function Skills() {
   return (
     <section id="skills" className="py-24 px-6 bg-gray-950/50">

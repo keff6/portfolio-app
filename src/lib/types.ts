@@ -1,3 +1,6 @@
+/**
+ * Represents a portfolio project with metadata and links.
+ */
 export interface Project {
   id: number;
   title: string;
@@ -7,6 +10,9 @@ export interface Project {
   liveUrl?: string;
 }
 
+/**
+ * Represents a job or position in the career journey timeline.
+ */
 export interface Job {
   id: number;
   title: string;
