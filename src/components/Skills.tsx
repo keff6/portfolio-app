@@ -74,9 +74,17 @@ export default function Skills() {
                     }}
                     className="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
                   >
-                    <span className="flex items-center justify-center w-6 h-6 text-xs font-bold bg-blue-600 text-white rounded">
-                      {getInitials(skill.name)}
-                    </span>
+                    {skill.icon ? (
+                      <img
+                        src={`/icons/skills/${skill.icon}.svg`}
+                        alt={skill.name}
+                        className="w-6 h-6"
+                      />
+                    ) : (
+                      <span className="flex items-center justify-center w-6 h-6 text-xs font-bold bg-blue-600 text-white rounded">
+                        {getInitials(skill.name)}
+                      </span>
+                    )}
                     <span className="text-gray-300 group-hover:text-white transition-colors">
                       {skill.name}
                     </span>
