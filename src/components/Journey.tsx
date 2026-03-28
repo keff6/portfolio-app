@@ -6,7 +6,7 @@ import { jobs } from "@/data/journey";
 /**
  * Renders the Journey section with a vertical timeline of jobs.
  * Uses Framer Motion for scroll-triggered animations.
- * 
+ *
  * @returns The Journey section JSX element
  */
 export default function Journey() {
@@ -23,54 +23,33 @@ export default function Journey() {
           My Journey
         </h2>
         <div className="relative">
-          <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-gray-700 transform md:-translate-x-px" />
-          <div className="space-y-12">
+          <div className="absolute left-[7px] top-0 bottom-0 w-px bg-gray-700" />
+          <div className="space-y-8">
             {jobs.map((job, index) => (
               <motion.div
                 key={job.id}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className={`relative flex flex-col md:flex-row gap-8 ${
-                  index % 2 === 0 ? "md:flex-row-reverse" : ""
-                }`}
+                className="relative pl-14"
               >
-                <div className="flex-1 md:text-right">
-                  {index % 2 === 0 ? (
-                    <div className="bg-gray-900 p-6 rounded-lg border border-gray-800">
-                      <span className="text-blue-400 text-sm">{job.period}</span>
-                      <h3 className="text-xl font-semibold text-white mt-1">
+                <div className="absolute left-[5px] top-4 w-4 h-4 bg-blue-500 rounded-full ring-4 ring-gray-950 shadow-lg shadow-blue-500/30" />
+                <div className="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-blue-600/50 transition-colors">
+                  <div className="flex justify-between items-start mb-2">
+                    <div>
+                      <h3 className="text-xl font-semibold text-white">
                         {job.title}
                       </h3>
                       <p className="text-blue-500">{job.company}</p>
-                      <p className="text-gray-400 mt-2">{job.description}</p>
                     </div>
-                  ) : (
-                    <div className="hidden md:block" />
-                  )}
-                </div>
-                <div className="absolute left-0 md:left-1/2 w-4 h-4 bg-blue-600 rounded-full transform md:-translate-x-1/2 mt-8 border-4 border-gray-950" />
-                <div className="flex-1">
-                  {index % 2 !== 0 ? (
-                    <div className="bg-gray-900 p-6 rounded-lg border border-gray-800">
-                      <span className="text-blue-400 text-sm">{job.period}</span>
-                      <h3 className="text-xl font-semibold text-white mt-1">
-                        {job.title}
-                      </h3>
-                      <p className="text-blue-500">{job.company}</p>
-                      <p className="text-gray-400 mt-2">{job.description}</p>
-                    </div>
-                  ) : (
-                    <div className="md:hidden bg-gray-900 p-6 rounded-lg border border-gray-800">
-                      <span className="text-blue-400 text-sm">{job.period}</span>
-                      <h3 className="text-xl font-semibold text-white mt-1">
-                        {job.title}
-                      </h3>
-                      <p className="text-blue-500">{job.company}</p>
-                      <p className="text-gray-400 mt-2">{job.description}</p>
-                    </div>
-                  )}
+                    <span className="text-gray-500 text-sm whitespace-nowrap ml-4">
+                      {job.period}
+                    </span>
+                  </div>
+                  {job.description.map((desc, i) => (
+                    <p key={i} className="text-gray-400 mt-2">{desc}</p>
+                  ))}
                 </div>
               </motion.div>
             ))}

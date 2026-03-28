@@ -18,5 +18,5 @@ export interface Job {
   title: string;
   company: string;
   period: string;
-  description: string;
+  description: string[];
 }

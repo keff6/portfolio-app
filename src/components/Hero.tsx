@@ -55,13 +55,13 @@ export default function Hero() {
         className="text-center max-w-2xl"
       >
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-          Your Name
+          Kevin Fallas
         </h1>
         <p className="text-xl md:text-2xl text-blue-400 mb-8">
-          Full Stack Developer
+          Software Engineer
         </p>
         <p className="text-gray-400 text-lg mb-12 max-w-md mx-auto">
-          Building elegant solutions with modern technologies. Passionate about clean code and user experience.
+          Building reliable, scalable software across the stack. Focused on clean architecture, problem-solving, and continuous growth.
         </p>
         <div className="flex flex-wrap gap-4 justify-center">
           <a
@@ -72,7 +72,7 @@ export default function Hero() {
             Email Me
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/kevin-fallas/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white rounded-lg transition-colors"
@@ -81,7 +81,7 @@ export default function Hero() {
             LinkedIn
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/keff6"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white rounded-lg transition-colors"

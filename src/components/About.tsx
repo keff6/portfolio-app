@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 /**
  * Renders the About Me section with a profile placeholder and bio text.
  * Uses Framer Motion for scroll-triggered animations.
- * 
+ *
  * @returns The About section JSX element
  */
 export default function About() {
@@ -27,16 +27,28 @@ export default function About() {
           </div>
           <div className="text-gray-300 space-y-4">
             <p>
-              Hi! I&apos;m a passionate developer with experience building web applications
-              that make a difference. I enjoy solving complex problems and creating
-              intuitive user experiences.
+              Hi! I’m a Software Engineer with 10+ years of experience building
+              and scaling production systems for U.S. clients, working in
+              remote, cross-functional teams.
             </p>
             <p>
-              When I&apos;m not coding, you can find me exploring new technologies,
-              contributing to open source, or sharing knowledge with the community.
+              I’ve worked across the stack, with
+              experience building user-facing applications as well as designing
+              APIs, data models, and cloud-based solutions on AWS. I enjoy
+              owning features end-to-end, from initial idea to production, with
+              a focus on reliability, performance, and real-world impact.
+              Recently, I’ve been exploring AI-assisted development workflows to
+              build faster and more effectively, while continuing to grow as an
+              engineer and adapt to how the industry is evolving.
+            </p>
+            <p>
+              When I&apos;m not coding, you can find me exploring new
+              technologies, contributing to open source, or sharing knowledge
+              with the community.
             </p>
             <p className="text-blue-400 font-medium">
-              Currently based in San Francisco, open to remote opportunities worldwide.
+              Currently based in Costa Rica, open to remote/relocation opportunities
+              worldwide.
             </p>
           </div>
         </div>
