@@ -72,7 +72,7 @@ export default function Skills() {
                       duration: 0.3,
                       delay: categoryIndex * 0.1 + skillIndex * 0.05,
                     }}
-                    className="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-full hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+                    className="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
                   >
                     <span className="flex items-center justify-center w-6 h-6 text-xs font-bold bg-blue-600 text-white rounded">
                       {getInitials(skill.name)}
