@@ -9,6 +9,7 @@ export const projects: Project[] = [
       "I owned the entire development lifecycle, from architecture and implementation to deployment on Vercel, focusing on building a reliable and maintainable solution for real-world use.",
     ],
     tags: ["Next.js", "Vercel", "Prisma", "Tailwind CSS", "Azure", "PostgreSQL"],
+    thumbnail: "/images/timein.png",
   },
   {
     id: 2,
@@ -17,7 +18,8 @@ export const projects: Project[] = [
       "GamesCollection is a personal web application designed to manage and track my video game collection. Built with React, Node and MySQL, it allows users to organize games, track progress, and maintain a structured library.",
       "This project focuses on building a clean user experience while applying full-stack concepts in a practical, self-driven environment.",
     ],
-    tags: ["React", "NodeJS", "Express", "MySQL", "Bootstrap" ],
+    tags: ["React", "NodeJS", "Express", "MySQL", "Bootstrap"],
+    thumbnail: "/images/gamescollection.png",
     githubUrl: "https://github.com/keff6/gamescollection_fe",
     liveUrl: "https://gamescollection-app.onrender.com/",
   },

@@ -5,6 +5,7 @@ import Skills from "@/components/Skills";
 import Journey from "@/components/Journey";
 import Projects from "@/components/Projects";
 import Footer from "@/components/Footer";
+import ScrollToTop from "@/components/ScrollToTop";
 
 /**
  * Main page component that renders all portfolio sections.
@@ -24,6 +25,7 @@ export default function Home() {
         <Projects />
       </main>
       <Footer />
+      <ScrollToTop />
     </>
   );
 }

@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
 import { projects } from "@/data/projects";
@@ -24,72 +25,97 @@ const GithubIcon = ({ size = 18 }: { size?: number }) => (
  * @returns The Projects section JSX element
  */
 export default function Projects() {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
   return (
-    <section id="projects" className="py-24 px-6">
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.6 }}
-        className="max-w-6xl mx-auto"
-      >
-        <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-center">
-          Projects
-        </h2>
-        <div className="grid md:grid-cols-2 gap-6">
-          {projects.map((project, index) => (
-            <motion.div
-              key={project.id}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-blue-600 transition-colors group"
-            >
-              <h3 className="text-xl font-semibold text-white mb-2">
-                {project.title}
-              </h3>
-              {project.description.map((desc, i) => (
-                <p key={i} className="text-gray-400 mb-4">{desc}</p>
-              ))}
-              <div className="flex flex-wrap gap-2 mb-4">
-                {project.tags.map((tag) => (
-                  <span
-                    key={tag}
-                    className="px-3 py-1 text-sm bg-gray-800 text-blue-400 rounded-full"
-                  >
-                    {tag}
-                  </span>
+    <>
+      <section id="projects" className="py-24 px-6">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="max-w-6xl mx-auto"
+        >
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-center">
+            Projects
+          </h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            {projects.map((project, index) => (
+              <motion.div
+                key={project.id}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                className="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-blue-600 transition-colors group"
+              >
+                {project.thumbnail && (
+                  <img
+                    src={project.thumbnail}
+                    alt={project.title}
+                    className="w-full h-48 object-cover rounded-lg mb-4 cursor-pointer hover:opacity-80 transition-opacity"
+                    onClick={() => setSelectedImage(project.thumbnail!)}
+                  />
+                )}
+                <h3 className="text-xl font-semibold text-white mb-2">
+                  {project.title}
+                </h3>
+                {project.description.map((desc, i) => (
+                  <p key={i} className="text-gray-400 mb-4">{desc}</p>
                 ))}
-              </div>
-              <div className="flex gap-4">
-                {project.githubUrl && (
-                  <a
-                    href={project.githubUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
-                  >
-                    <GithubIcon size={18} />
-                    <span className="text-sm">Code</span>
-                  </a>
-                )}
-                {project.liveUrl && (
-                  <a
-                    href={project.liveUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
-                  >
-                    <ExternalLink size={18} />
-                    <span className="text-sm">Live Demo</span>
-                  </a>
-                )}
-              </div>
-            </motion.div>
-          ))}
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {project.tags.map((tag) => (
+                    <span
+                      key={tag}
+                      className="px-3 py-1 text-sm bg-gray-800 text-blue-400 rounded-full"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+                <div className="flex gap-4">
+                  {project.githubUrl && (
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
+                    >
+                      <GithubIcon size={18} />
+                      <span className="text-sm">Code</span>
+                    </a>
+                  )}
+                  {project.liveUrl && (
+                    <a
+                      href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
+                    >
+                      <ExternalLink size={18} />
+                      <span className="text-sm">Live Demo</span>
+                    </a>
+                  )}
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
+      </section>
+
+      {selectedImage && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4 cursor-pointer"
+          onClick={() => setSelectedImage(null)}
+        >
+          <img
+            src={selectedImage}
+            alt="Project preview"
+            className="max-w-full max-h-full rounded-lg object-contain"
+          />
         </div>
-      </motion.div>
-    </section>
+      )}
+    </>
   );
 }

@@ -49,7 +49,7 @@ export default function About() {
               with the community.
             </p>
             <p className="text-blue-400 font-medium">
-              Currently based in Costa Rica, open to remote/relocation opportunities
+              Currently based in Costa Rica, open to remote / relocation opportunities
               worldwide.
             </p>
           </div>
