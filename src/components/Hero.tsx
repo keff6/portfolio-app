@@ -36,16 +36,6 @@ const LinkedinIcon = ({ size = 20 }: { size?: number }) => (
  * @returns The Hero section JSX element
  */
 export default function Hero() {
-  /**
-   * Triggers download of the resume PDF file.
-   */
-  const handleDownload = () => {
-    const link = document.createElement("a");
-    link.href = "/resume.pdf";
-    link.download = "resume.pdf";
-    link.click();
-  };
-
   return (
     <section className="min-h-screen flex items-center justify-center px-6">
       <motion.div
@@ -89,13 +79,14 @@ export default function Hero() {
             <GithubIcon size={20} />
             GitHub
           </a>
-          <button
-            onClick={handleDownload}
+          <a
+            href="/Kevin-Fallas_resume.pdf"
+            download="Kevin-Fallas_resume.pdf"
             className="flex items-center gap-2 px-6 py-3 border border-gray-600 hover:border-gray-500 text-white rounded-lg transition-colors"
           >
             <FileDown size={20} />
             Resume
-          </button>
+          </a>
         </div>
       </motion.div>
     </section>
