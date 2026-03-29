@@ -22,9 +22,11 @@ export default function About() {
           About Me
         </h2>
         <div className="flex flex-col md:flex-row items-center gap-12">
-          <div className="w-48 h-48 rounded-full bg-gray-800 border-4 border-blue-600 flex items-center justify-center flex-shrink-0">
-            <span className="text-6xl text-gray-600">👤</span>
-          </div>
+          <img
+            src="/profile.png"
+            alt="Kevin Fallas"
+            className="w-48 h-48 rounded-full object-cover border-4 border-blue-600 flex-shrink-0"
+          />
           <div className="text-gray-300 space-y-4">
             <p>
               Hi! I’m a Software Engineer with 10+ years of experience building
