@@ -3,32 +3,22 @@ import { Project } from "@/lib/types";
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Project One",
-    description: "A brief description of your first project. Mention what it does and the tech stack used.",
-    tags: ["React", "Node.js", "MongoDB"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
+    title: "TimeIn - Team Productivity App",
+    description: [
+      "TimeIn is a full-stack web application designed to improve team productivity and workflow management. Built from scratch using Next.js, it allows teams to track tasks, manage time, and generate reports in a centralized system.",
+      "I owned the entire development lifecycle, from architecture and implementation to deployment on Vercel, focusing on building a reliable and maintainable solution for real-world use.",
+    ],
+    tags: ["Next.js", "Vercel", "Prisma", "Tailwind CSS", "Azure", "PostgreSQL"],
   },
   {
     id: 2,
-    title: "Project Two",
-    description: "A brief description of your second project. Highlight your role and key achievements.",
-    tags: ["Next.js", "TypeScript", "Tailwind"],
-    githubUrl: "https://github.com",
-  },
-  {
-    id: 3,
-    title: "Project Three",
-    description: "A brief description of your third project. Include metrics or impact if possible.",
-    tags: ["Python", "FastAPI", "PostgreSQL"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
-  },
-  {
-    id: 4,
-    title: "Project Four",
-    description: "A brief description of your fourth project. Keep it concise and impactful.",
-    tags: ["React Native", "Firebase"],
-    liveUrl: "https://example.com",
+    title: "GamesCollection - Personal Game Library Manager",
+    description: [
+      "GamesCollection is a personal web application designed to manage and track my video game collection. Built with React, Node and MySQL, it allows users to organize games, track progress, and maintain a structured library.",
+      "This project focuses on building a clean user experience while applying full-stack concepts in a practical, self-driven environment.",
+    ],
+    tags: ["React", "NodeJS", "Express", "MySQL", "Bootstrap" ],
+    githubUrl: "https://github.com/keff6/gamescollection_fe",
+    liveUrl: "https://gamescollection-app.onrender.com/",
   },
 ];

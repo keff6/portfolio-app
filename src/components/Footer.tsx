@@ -48,7 +48,7 @@ export default function Footer() {
             <Mail size={20} className="text-gray-400 hover:text-white" />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/kevin-fallas/"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors"
@@ -57,7 +57,7 @@ export default function Footer() {
             <LinkedinIcon size={20} className="text-gray-400 hover:text-white" />
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/keff6"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors"
@@ -67,7 +67,7 @@ export default function Footer() {
           </a>
         </div>
         <p className="text-gray-500 text-sm">
-          © {new Date().getFullYear()} Your Name. Built with Next.js.
+          © {new Date().getFullYear()} Kevin Fallas. Built with Next.js.
         </p>
       </div>
     </footer>

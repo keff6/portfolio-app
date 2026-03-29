@@ -49,7 +49,9 @@ export default function Projects() {
               <h3 className="text-xl font-semibold text-white mb-2">
                 {project.title}
               </h3>
-              <p className="text-gray-400 mb-4">{project.description}</p>
+              {project.description.map((desc, i) => (
+                <p key={i} className="text-gray-400 mb-4">{desc}</p>
+              ))}
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.tags.map((tag) => (
                   <span
