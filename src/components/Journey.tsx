@@ -23,7 +23,7 @@ export default function Journey() {
           My Journey
         </h2>
         <div className="relative">
-          <div className="absolute left-[6px] top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-500/60 via-blue-500/30 to-transparent" />
+          <div className="absolute left-[6px] top-2 bottom-0 w-0.5 bg-gradient-to-b from-blue-500/60 via-blue-500/30 to-transparent" />
           <div className="space-y-8">
             {jobs.map((job, index) => (
               <motion.div
@@ -34,7 +34,7 @@ export default function Journey() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="relative pl-14"
               >
-                <div className="absolute left-[3px] top-4 w-4 h-4 bg-blue-500 rounded-full ring-4 ring-gray-950 shadow-lg shadow-blue-500/30" />
+                <div className="absolute left-0 top-2 w-4 h-4 bg-blue-500 rounded-full ring-4 ring-gray-950 shadow-lg shadow-blue-500/30" />
                 <div className="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-blue-600/50 transition-colors">
                   <div className="flex justify-between items-start mb-2">
                     <div>
