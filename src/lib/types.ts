@@ -18,6 +18,7 @@ export interface Job {
   id: number;
   title: string;
   company: string;
+  country: string;
   period: string;
   description: string[];
 }

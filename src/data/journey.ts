@@ -5,6 +5,7 @@ export const jobs: Job[] = [
     id: 1,
     title: "Software Engineer",
     company: "Freelance",
+    country: "Costa Rica (Remote)",
     period: "2023 - Present",
     description: [
       "Designed and developed TimeIn, a full-stack web application for CCK focused on improving team productivity and workflow management. Owned the entire development lifecycle, from architecture and implementation to deployment and maintenance, using Next.js and backend services.",
@@ -16,6 +17,7 @@ export const jobs: Job[] = [
     id: 2,
     title: "Senior Consultant",
     company: "Gorilla Logic",
+    country: "Costa Rica (Remote / Nearshore)",
     period: "2019 - 2022",
     description: [
       "Worked on a project for Zero to Three, a non-governmental organization, building an application to track child cases and generate reports. Implemented an end-to-end file upload and download system using Amazon S3, improving data handling capabilities.",
@@ -26,6 +28,7 @@ export const jobs: Job[] = [
     id: 3,
     title: "Software Engineer",
     company: "First Factory",
+    country: "Costa Rica (Remote / Nearshore)",
     period: "2018 - 2019",
     description: [
       "Contributed to multiple projects, including a high-impact initiative for the International Centre for Missing & Exploited Children. Helped design and build an application capable of comparing images of potential suspects against criminal databases using Amazon Rekognition.",
@@ -36,6 +39,7 @@ export const jobs: Job[] = [
     id: 4,
     title: "Software Engineer",
     company: "Fiserv",
+    country: "Costa Rica",
     period: "2013 - 2015",
     description: [
       "Worked on multiple projects for U.S. and U.K. banking clients, contributing to production systems in a fintech environment. Collaborated with distributed, cross-functional teams across regions including the U.S. and New Zealand.",
@@ -46,6 +50,7 @@ export const jobs: Job[] = [
     id: 5,
     title: "Software Engineer",
     company: "Softland",
+    country: "Costa Rica",
     period: "2011 - 2013",
     description: [
       "Contributed to core modules of the Softland ERP system, including Billing and Purchasing, working on business-critical functionality.",

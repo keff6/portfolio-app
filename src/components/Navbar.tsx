@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
+  { href: "#home", label: "Home" },
   { href: "#about", label: "About" },
   { href: "#skills", label: "Skills" },
   { href: "#journey", label: "Journey" },
@@ -19,12 +20,39 @@ const navLinks = [
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [activeSection, setActiveSection] = useState("");
+
+  console.log({activeSection})
 
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
     };
     window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY + 100;
+
+      for (const link of navLinks) {
+        const section = document.getElementById(`${link.href.slice(1)}`);
+
+        if (section) {
+          const sectionTop = (section as HTMLElement).offsetTop;
+          const sectionHeight = (section as HTMLElement).offsetHeight;
+
+          if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+            setActiveSection(link.href.slice(1));
+            break;
+          }
+        }
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    handleScroll();
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -51,7 +79,11 @@ export default function Navbar() {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-gray-400 hover:text-white transition-colors"
+                className={`transition-colors ${
+                  activeSection === link.href.slice(1)
+                    ? "text-white font-medium border-b-2 border-blue-500/50"
+                    : "text-gray-400 hover:text-white"
+                }`}
               >
                 {link.label}
               </a>
@@ -73,7 +105,11 @@ export default function Navbar() {
                   key={link.href}
                   href={link.href}
                   onClick={handleNavClick}
-                  className="text-gray-400 hover:text-white transition-colors py-2"
+                  className={`transition-colors py-2 ${
+                    activeSection === link.href.slice(1)
+                      ? "text-white font-medium border-b-2 border-blue-500/50"
+                      : "text-gray-400 hover:text-white"
+                  }`}
                 >
                   {link.label}
                 </a>

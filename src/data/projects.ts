@@ -6,6 +6,7 @@ export const projects: Project[] = [
     title: "TimeIn - Team Productivity App",
     description: [
       "TimeIn is a full-stack web application designed to improve team productivity and workflow management. Built from scratch using Next.js, it allows teams to track tasks, manage time, and generate reports in a centralized system.",
+      "Used daily by 100+ users across multiple countries in Central America.",
       "I owned the entire development lifecycle, from architecture and implementation to deployment on Vercel, focusing on building a reliable and maintainable solution for real-world use.",
     ],
     tags: ["Next.js", "Vercel", "Prisma", "Tailwind CSS", "Azure", "PostgreSQL"],

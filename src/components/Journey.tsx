@@ -41,7 +41,10 @@ export default function Journey() {
                       <h3 className="text-xl font-semibold text-white">
                         {job.title}
                       </h3>
-                      <p className="text-blue-500">{job.company}</p>
+                      <p className="text-blue-500 flex items-center gap-2">
+                        {job.company}
+                        <span className="text-gray-500">{job.country}</span>
+                      </p>
                     </div>
                     <span className="text-gray-500 text-sm whitespace-nowrap ml-4">
                       {job.period}

@@ -37,7 +37,7 @@ const LinkedinIcon = ({ size = 20 }: { size?: number }) => (
  */
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-6">
+    <section id="home" className="min-h-screen flex items-center justify-center px-6">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -51,7 +51,7 @@ export default function Hero() {
           Software Engineer
         </p>
         <p className="text-gray-400 text-lg mb-12 max-w-md mx-auto">
-          Building reliable, scalable software across the stack. Focused on clean architecture, problem-solving, and continuous growth.
+          Building scalable software across the stack, focused on delivering reliable solutions in high-impact, real-world environments. Driven by problem-solving and continuous growth.
         </p>
         <div className="flex flex-wrap gap-4 justify-center">
           <a
