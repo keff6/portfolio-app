@@ -9,6 +9,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Your Name | Full Stack Developer",
   description: "Portfolio of a passionate full stack developer",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 /**

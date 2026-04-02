@@ -22,8 +22,6 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState("");
 
-  console.log({activeSection})
-
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
