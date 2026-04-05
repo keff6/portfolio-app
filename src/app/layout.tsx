@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     canonical: "https://kevin-fallas.vercel.app/",
   },
   verification: {
-    google: "googledb9800ad69d5bcb2",
+    google: "googledb9800ad69d5bcb2.html",
   },
   robots: {
     index: true,
