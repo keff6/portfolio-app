@@ -32,21 +32,21 @@ export default function Journey() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="relative pl-14"
+                className="relative pl-8 md:pl-14"
               >
                 <div className="absolute left-0 top-2 w-4 h-4 bg-blue-500 rounded-full ring-4 ring-gray-950 shadow-lg shadow-blue-500/30" />
                 <div className="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-blue-600/50 transition-colors">
-                  <div className="flex justify-between items-start mb-2">
+                  <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
                     <div>
                       <h3 className="text-xl font-semibold text-white">
                         {job.title}
                       </h3>
-                      <p className="text-blue-500 flex items-center gap-2">
+                      <p className="text-blue-500 grid md:flex items-center gap-2">
                         {job.company}
                         <span className="text-gray-500">{job.country}</span>
                       </p>
                     </div>
-                    <span className="text-gray-500 text-sm whitespace-nowrap ml-4">
+                    <span className="text-gray-500 text-sm whitespace-nowrap mt-2 md:mt-0 md:ml-4">
                       {job.period}
                     </span>
                   </div>
