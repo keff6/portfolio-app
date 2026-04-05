@@ -7,6 +7,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://kevin-fallas.vercel.app/"),
   title: "Kevin Fallas | Software Engineer | 10+ Years Next.js & Node.js",
   description:
     "Software Engineer with 10+ years building scalable systems. Expertise in Next.js, React, Node.js, PostgreSQL AWS, cloud architecture, and AI tools.",
@@ -46,12 +47,11 @@ export const metadata: Metadata = {
   ],
   applicationName: "Kevin Fallas Portfolio",
   creator: "Kevin Fallas",
-  metadataBase: new URL("https://kevin-fallas.vercel.app/"),
   alternates: {
     canonical: "https://kevin-fallas.vercel.app/",
   },
   verification: {
-    google: "googledb9800ad69d5bcb2.html",
+    google: "MDK7mbtqjSnaV3eNn31p8HXn-qIx43Ov0E14W6ggQJg",
   },
   robots: {
     index: true,
