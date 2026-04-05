@@ -50,6 +50,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kevin-fallas.vercel.app/",
   },
+  verification: {
+    google: "googledb9800ad69d5bcb2",
+  },
   robots: {
     index: true,
     follow: true,
@@ -59,9 +62,6 @@ export const metadata: Metadata = {
   viewport: "width=device-width, initial-scale=1, maximum-scale=5",
   themeColor: "#0f172a", 
   colorScheme: "dark",
-  verification: {
-    google: "googledb9800ad69d5bcb2.html",
-  },
   authors: [
     {
       name: "Kevin Fallas",
