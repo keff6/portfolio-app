@@ -46,6 +46,8 @@ export const metadata: Metadata = {
     "AI tools",
     "AWS",
     "portfolio",
+    "senior software engineer",
+    "systems design",
   ],
   applicationName: "Kevin Fallas Portfolio",
   creator: "Kevin Fallas",
