@@ -24,6 +24,11 @@ const config = {
     '!src/**/*.d.ts',
     '!src/**/*.stories.tsx',
   ],
+  globals: {
+    "ts-jest": {
+      tsconfig: "tsconfig.spec.json"
+    }
+  }
 };
 
 module.exports = config;
