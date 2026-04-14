@@ -1,0 +1,612 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Skills matches snapshot 1`] = `
+<div>
+  <section
+    class="py-24 px-6 bg-gray-950/50"
+    id="skills"
+  >
+    <div
+      class="max-w-6xl mx-auto"
+      initial="[object Object]"
+      transition="[object Object]"
+      viewport="[object Object]"
+      whileinview="[object Object]"
+    >
+      <h2
+        class="text-3xl md:text-4xl font-bold text-white mb-12 text-center"
+      >
+        Skills & Expertise
+      </h2>
+      <div
+        class="space-y-10"
+      >
+        <div
+          initial="[object Object]"
+          transition="[object Object]"
+          viewport="[object Object]"
+          whileinview="[object Object]"
+        >
+          <h3
+            class="text-lg font-semibold text-blue-400 mb-4"
+          >
+            Languages
+          </h3>
+          <div
+            class="flex flex-wrap gap-3"
+          >
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="JavaScript"
+                class="w-6 h-6"
+                src="/icons/skills/javascript.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                JavaScript
+              </span>
+            </div>
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="TypeScript"
+                class="w-6 h-6"
+                src="/icons/skills/typescript.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                TypeScript
+              </span>
+            </div>
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="HTML5"
+                class="w-6 h-6"
+                src="/icons/skills/html.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                HTML5
+              </span>
+            </div>
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="CSS"
+                class="w-6 h-6"
+                src="/icons/skills/css.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                CSS
+              </span>
+            </div>
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="C#"
+                class="w-6 h-6"
+                src="/icons/skills/csharp.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                C#
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          initial="[object Object]"
+          transition="[object Object]"
+          viewport="[object Object]"
+          whileinview="[object Object]"
+        >
+          <h3
+            class="text-lg font-semibold text-blue-400 mb-4"
+          >
+            Frameworks & Libraries
+          </h3>
+          <div
+            class="flex flex-wrap gap-3"
+          >
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="React"
+                class="w-6 h-6"
+                src="/icons/skills/react.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                React
+              </span>
+            </div>
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="Next.js"
+                class="w-6 h-6"
+                src="/icons/skills/nextjs.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                Next.js
+              </span>
+            </div>
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="Node.js"
+                class="w-6 h-6"
+                src="/icons/skills/nodejs.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                Node.js
+              </span>
+            </div>
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="Tailwind CSS"
+                class="w-6 h-6"
+                src="/icons/skills/tailwind.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                Tailwind CSS
+              </span>
+            </div>
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="Prisma"
+                class="w-6 h-6"
+                src="/icons/skills/prisma.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                Prisma
+              </span>
+            </div>
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="Express"
+                class="w-6 h-6"
+                src="/icons/skills/express.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                Express
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          initial="[object Object]"
+          transition="[object Object]"
+          viewport="[object Object]"
+          whileinview="[object Object]"
+        >
+          <h3
+            class="text-lg font-semibold text-blue-400 mb-4"
+          >
+            Databases
+          </h3>
+          <div
+            class="flex flex-wrap gap-3"
+          >
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="PostgreSQL"
+                class="w-6 h-6"
+                src="/icons/skills/postgresql.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                PostgreSQL
+              </span>
+            </div>
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="MySQL"
+                class="w-6 h-6"
+                src="/icons/skills/mysql.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                MySQL
+              </span>
+            </div>
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="SQL Server"
+                class="w-6 h-6"
+                src="/icons/skills/sqlserver.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                SQL Server
+              </span>
+            </div>
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="DynamoDB"
+                class="w-6 h-6"
+                src="/icons/skills/dynamodb.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                DynamoDB
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          initial="[object Object]"
+          transition="[object Object]"
+          viewport="[object Object]"
+          whileinview="[object Object]"
+        >
+          <h3
+            class="text-lg font-semibold text-blue-400 mb-4"
+          >
+            Cloud
+          </h3>
+          <div
+            class="flex flex-wrap gap-3"
+          >
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="AWS"
+                class="w-6 h-6"
+                src="/icons/skills/aws.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                AWS
+              </span>
+            </div>
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="Microsoft Azure"
+                class="w-6 h-6"
+                src="/icons/skills/azure.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                Microsoft Azure
+              </span>
+            </div>
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="AWS Lambda"
+                class="w-6 h-6"
+                src="/icons/skills/lambda.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                AWS Lambda
+              </span>
+            </div>
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="AWS S3"
+                class="w-6 h-6"
+                src="/icons/skills/s3.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                AWS S3
+              </span>
+            </div>
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="AWS EC2"
+                class="w-6 h-6"
+                src="/icons/skills/ec2.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                AWS EC2
+              </span>
+            </div>
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="AWS Cognito"
+                class="w-6 h-6"
+                src="/icons/skills/cognito.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                AWS Cognito
+              </span>
+            </div>
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="AWS API Gateway"
+                class="w-6 h-6"
+                src="/icons/skills/apigateway.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                AWS API Gateway
+              </span>
+            </div>
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="Vercel"
+                class="w-6 h-6"
+                src="/icons/skills/vercel.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                Vercel
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          initial="[object Object]"
+          transition="[object Object]"
+          viewport="[object Object]"
+          whileinview="[object Object]"
+        >
+          <h3
+            class="text-lg font-semibold text-blue-400 mb-4"
+          >
+            Tools & Platforms
+          </h3>
+          <div
+            class="flex flex-wrap gap-3"
+          >
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="Git"
+                class="w-6 h-6"
+                src="/icons/skills/git.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                Git
+              </span>
+            </div>
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="Docker"
+                class="w-6 h-6"
+                src="/icons/skills/docker.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                Docker
+              </span>
+            </div>
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="OpenCode"
+                class="w-6 h-6"
+                src="/icons/skills/opencode.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                OpenCode
+              </span>
+            </div>
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="GitHub Copilot"
+                class="w-6 h-6"
+                src="/icons/skills/copilot.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                GitHub Copilot
+              </span>
+            </div>
+            <div
+              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <img
+                alt="REST APIs"
+                class="w-6 h-6"
+                src="/icons/skills/api.svg"
+              />
+              <span
+                class="text-gray-300 group-hover:text-white transition-colors"
+              >
+                REST APIs
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

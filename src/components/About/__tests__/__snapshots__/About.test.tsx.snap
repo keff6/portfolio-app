@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`About matches snapshot 1`] = `
+<div>
+  <section
+    class="py-24 px-6"
+    id="about"
+  >
+    <div
+      class="max-w-4xl mx-auto"
+      initial="[object Object]"
+      transition="[object Object]"
+      viewport="[object Object]"
+      whileinview="[object Object]"
+    >
+      <h2
+        class="text-3xl md:text-4xl font-bold text-white mb-12 text-center"
+      >
+        About Me
+      </h2>
+      <div
+        class="flex flex-col md:flex-row items-center gap-12"
+      >
+        <img
+          alt="Kevin Fallas"
+          class="w-48 h-48 rounded-full object-cover border-4 border-blue-600 flex-shrink-0"
+          src="/profile.png"
+        />
+        <div
+          class="text-gray-300 space-y-4"
+        >
+          <p>
+            Hi! I’m a Software Engineer with 10+ years of experience building and scaling production systems for U.S. clients, working in remote, cross-functional teams.
+          </p>
+          <p>
+            I’ve worked across the stack, with experience building user-facing applications as well as designing APIs, data models, and cloud-based solutions on AWS. I enjoy owning features end-to-end, from initial idea to production, with a focus on reliability, performance, and real-world impact. Recently, I’ve been exploring AI-assisted development workflows to build faster and more effectively, while continuing to grow as an engineer and adapt to how the industry is evolving.
+          </p>
+          <p>
+            When I'm not coding, you can find me exploring new technologies, contributing to open source, or sharing knowledge with the community.
+          </p>
+          <p
+            class="text-blue-400 font-medium"
+          >
+            Currently based in Costa Rica, open to remote / relocation opportunities worldwide.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

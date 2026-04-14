@@ -34,6 +34,8 @@ export const metadata: Metadata = {
     locale: "en_US",
   },
   keywords: [
+    "Kevin Fallas",
+    "kevin fallas",
     "software engineer",
     "full-stack developer",
     "front-end developer",
@@ -44,7 +46,6 @@ export const metadata: Metadata = {
     "AI tools",
     "AWS",
     "portfolio",
-    "Kevin Fallas",
   ],
   applicationName: "Kevin Fallas Portfolio",
   creator: "Kevin Fallas",

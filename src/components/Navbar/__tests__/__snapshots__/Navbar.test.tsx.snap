@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Navbar matches snapshot 1`] = `
+<div>
+  <nav
+    class="fixed top-0 left-0 right-0 z-50 transition-colors duration-300 "
+  >
+    <div
+      class="max-w-6xl mx-auto px-6 py-3"
+    >
+      <div
+        class="flex items-center justify-between"
+      >
+        <a
+          class="flex items-center"
+          href="#"
+        >
+          <img
+            alt="Kevin Fallas"
+            class="h-8 w-auto"
+            src="/logo.png"
+          />
+        </a>
+        <div
+          class="hidden md:flex items-center gap-8"
+        >
+          <a
+            class="transition-colors text-gray-400 hover:text-white"
+            href="#home"
+          >
+            Home
+          </a>
+          <a
+            class="transition-colors text-gray-400 hover:text-white"
+            href="#about"
+          >
+            About
+          </a>
+          <a
+            class="transition-colors text-gray-400 hover:text-white"
+            href="#skills"
+          >
+            Skills
+          </a>
+          <a
+            class="transition-colors text-gray-400 hover:text-white"
+            href="#journey"
+          >
+            Journey
+          </a>
+          <a
+            class="transition-colors text-gray-400 hover:text-white"
+            href="#projects"
+          >
+            Projects
+          </a>
+        </div>
+        <button
+          aria-label="Toggle menu"
+          class="md:hidden p-2 text-gray-400 hover:text-white"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-menu"
+            fill="none"
+            height="24"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 5h16"
+            />
+            <path
+              d="M4 12h16"
+            />
+            <path
+              d="M4 19h16"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+</div>
+`;

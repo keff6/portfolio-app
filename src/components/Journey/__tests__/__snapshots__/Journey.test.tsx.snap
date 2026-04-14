@@ -1,0 +1,295 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Journey matches snapshot 1`] = `
+<div>
+  <section
+    class="py-24 px-6 bg-gray-950/50"
+    id="journey"
+  >
+    <div
+      class="max-w-4xl mx-auto"
+      initial="[object Object]"
+      transition="[object Object]"
+      viewport="[object Object]"
+      whileinview="[object Object]"
+    >
+      <h2
+        class="text-3xl md:text-4xl font-bold text-white mb-12 text-center"
+      >
+        My Journey
+      </h2>
+      <div
+        class="relative"
+      >
+        <div
+          class="absolute left-[6px] top-2 bottom-0 w-0.5 bg-gradient-to-b from-blue-500/60 via-blue-500/30 to-transparent"
+        />
+        <div
+          class="space-y-8"
+        >
+          <div
+            class="relative pl-8 md:pl-14"
+            initial="[object Object]"
+            transition="[object Object]"
+            viewport="[object Object]"
+            whileinview="[object Object]"
+          >
+            <div
+              class="absolute left-0 top-2 w-4 h-4 bg-blue-500 rounded-full ring-4 ring-gray-950 shadow-lg shadow-blue-500/30"
+            />
+            <div
+              class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-blue-600/50 transition-colors"
+            >
+              <div
+                class="flex flex-col md:flex-row md:justify-between md:items-start mb-2"
+              >
+                <div>
+                  <h3
+                    class="text-xl font-semibold text-white"
+                  >
+                    Software Engineer
+                  </h3>
+                  <p
+                    class="text-blue-500 grid md:flex items-center gap-2"
+                  >
+                    Freelance
+                    <span
+                      class="text-gray-500"
+                    >
+                      Costa Rica (Remote)
+                    </span>
+                  </p>
+                </div>
+                <span
+                  class="text-gray-500 text-sm whitespace-nowrap mt-2 md:mt-0 md:ml-4"
+                >
+                  2023 - Present
+                </span>
+              </div>
+              <p
+                class="text-gray-400 mt-2"
+              >
+                Designed and developed TimeIn, a full-stack web application for CCK focused on improving team productivity and workflow management. Owned the entire development lifecycle, from architecture and implementation to deployment and maintenance, using Next.js and backend services.
+              </p>
+              <p
+                class="text-gray-400 mt-2"
+              >
+                The application includes authentication, reporting, and task tracking features, and is deployed on Vercel.
+              </p>
+              <p
+                class="text-gray-400 mt-2"
+              >
+                Also contributed to the architecture and frontend development of an online car marketplace using Next.js. Although the project was discontinued, it demonstrates experience in building scalable applications and adapting to evolving project requirements.
+              </p>
+            </div>
+          </div>
+          <div
+            class="relative pl-8 md:pl-14"
+            initial="[object Object]"
+            transition="[object Object]"
+            viewport="[object Object]"
+            whileinview="[object Object]"
+          >
+            <div
+              class="absolute left-0 top-2 w-4 h-4 bg-blue-500 rounded-full ring-4 ring-gray-950 shadow-lg shadow-blue-500/30"
+            />
+            <div
+              class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-blue-600/50 transition-colors"
+            >
+              <div
+                class="flex flex-col md:flex-row md:justify-between md:items-start mb-2"
+              >
+                <div>
+                  <h3
+                    class="text-xl font-semibold text-white"
+                  >
+                    Senior Consultant
+                  </h3>
+                  <p
+                    class="text-blue-500 grid md:flex items-center gap-2"
+                  >
+                    Gorilla Logic
+                    <span
+                      class="text-gray-500"
+                    >
+                      Costa Rica (Remote / Nearshore)
+                    </span>
+                  </p>
+                </div>
+                <span
+                  class="text-gray-500 text-sm whitespace-nowrap mt-2 md:mt-0 md:ml-4"
+                >
+                  2019 - 2022
+                </span>
+              </div>
+              <p
+                class="text-gray-400 mt-2"
+              >
+                Worked on a project for Zero to Three, a non-governmental organization, building an application to track child cases and generate reports. Implemented an end-to-end file upload and download system using Amazon S3, improving data handling capabilities.
+              </p>
+              <p
+                class="text-gray-400 mt-2"
+              >
+                Additionally, optimized reporting APIs, improving performance by up to 30% and ensuring responses completed within AWS API Gateway time limits.
+              </p>
+            </div>
+          </div>
+          <div
+            class="relative pl-8 md:pl-14"
+            initial="[object Object]"
+            transition="[object Object]"
+            viewport="[object Object]"
+            whileinview="[object Object]"
+          >
+            <div
+              class="absolute left-0 top-2 w-4 h-4 bg-blue-500 rounded-full ring-4 ring-gray-950 shadow-lg shadow-blue-500/30"
+            />
+            <div
+              class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-blue-600/50 transition-colors"
+            >
+              <div
+                class="flex flex-col md:flex-row md:justify-between md:items-start mb-2"
+              >
+                <div>
+                  <h3
+                    class="text-xl font-semibold text-white"
+                  >
+                    Software Engineer
+                  </h3>
+                  <p
+                    class="text-blue-500 grid md:flex items-center gap-2"
+                  >
+                    First Factory
+                    <span
+                      class="text-gray-500"
+                    >
+                      Costa Rica (Remote / Nearshore)
+                    </span>
+                  </p>
+                </div>
+                <span
+                  class="text-gray-500 text-sm whitespace-nowrap mt-2 md:mt-0 md:ml-4"
+                >
+                  2018 - 2019
+                </span>
+              </div>
+              <p
+                class="text-gray-400 mt-2"
+              >
+                Contributed to multiple projects, including a high-impact initiative for the International Centre for Missing & Exploited Children. Helped design and build an application capable of comparing images of potential suspects against criminal databases using Amazon Rekognition.
+              </p>
+              <p
+                class="text-gray-400 mt-2"
+              >
+                This work focused on leveraging cloud-based machine learning services to support real-world investigations, providing both technical challenges and meaningful social impact.
+              </p>
+            </div>
+          </div>
+          <div
+            class="relative pl-8 md:pl-14"
+            initial="[object Object]"
+            transition="[object Object]"
+            viewport="[object Object]"
+            whileinview="[object Object]"
+          >
+            <div
+              class="absolute left-0 top-2 w-4 h-4 bg-blue-500 rounded-full ring-4 ring-gray-950 shadow-lg shadow-blue-500/30"
+            />
+            <div
+              class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-blue-600/50 transition-colors"
+            >
+              <div
+                class="flex flex-col md:flex-row md:justify-between md:items-start mb-2"
+              >
+                <div>
+                  <h3
+                    class="text-xl font-semibold text-white"
+                  >
+                    Software Engineer
+                  </h3>
+                  <p
+                    class="text-blue-500 grid md:flex items-center gap-2"
+                  >
+                    Fiserv
+                    <span
+                      class="text-gray-500"
+                    >
+                      Costa Rica
+                    </span>
+                  </p>
+                </div>
+                <span
+                  class="text-gray-500 text-sm whitespace-nowrap mt-2 md:mt-0 md:ml-4"
+                >
+                  2013 - 2015
+                </span>
+              </div>
+              <p
+                class="text-gray-400 mt-2"
+              >
+                Worked on multiple projects for U.S. and U.K. banking clients, contributing to production systems in a fintech environment. Collaborated with distributed, cross-functional teams across regions including the U.S. and New Zealand.
+              </p>
+              <p
+                class="text-gray-400 mt-2"
+              >
+                Gained experience building reliable solutions in regulated, high-impact environments and working effectively in fully remote teams.
+              </p>
+            </div>
+          </div>
+          <div
+            class="relative pl-8 md:pl-14"
+            initial="[object Object]"
+            transition="[object Object]"
+            viewport="[object Object]"
+            whileinview="[object Object]"
+          >
+            <div
+              class="absolute left-0 top-2 w-4 h-4 bg-blue-500 rounded-full ring-4 ring-gray-950 shadow-lg shadow-blue-500/30"
+            />
+            <div
+              class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-blue-600/50 transition-colors"
+            >
+              <div
+                class="flex flex-col md:flex-row md:justify-between md:items-start mb-2"
+              >
+                <div>
+                  <h3
+                    class="text-xl font-semibold text-white"
+                  >
+                    Software Engineer
+                  </h3>
+                  <p
+                    class="text-blue-500 grid md:flex items-center gap-2"
+                  >
+                    Softland
+                    <span
+                      class="text-gray-500"
+                    >
+                      Costa Rica
+                    </span>
+                  </p>
+                </div>
+                <span
+                  class="text-gray-500 text-sm whitespace-nowrap mt-2 md:mt-0 md:ml-4"
+                >
+                  2011 - 2013
+                </span>
+              </div>
+              <p
+                class="text-gray-400 mt-2"
+              >
+                Contributed to core modules of the Softland ERP system, including Billing and Purchasing, working on business-critical functionality.
+              </p>
+              <p
+                class="text-gray-400 mt-2"
+              >
+                Designed and developed a web service to expose key business indicators through APIs, enabling integration with an iOS application. This role provided early experience in both technical problem-solving and understanding business requirements in real-world systems.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
