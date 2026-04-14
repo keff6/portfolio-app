@@ -8,10 +8,6 @@ exports[`Journey matches snapshot 1`] = `
   >
     <div
       class="max-w-4xl mx-auto"
-      initial="[object Object]"
-      transition="[object Object]"
-      viewport="[object Object]"
-      whileinview="[object Object]"
     >
       <h2
         class="text-3xl md:text-4xl font-bold text-white mb-12 text-center"
@@ -29,10 +25,6 @@ exports[`Journey matches snapshot 1`] = `
         >
           <div
             class="relative pl-8 md:pl-14"
-            initial="[object Object]"
-            transition="[object Object]"
-            viewport="[object Object]"
-            whileinview="[object Object]"
           >
             <div
               class="absolute left-0 top-2 w-4 h-4 bg-blue-500 rounded-full ring-4 ring-gray-950 shadow-lg shadow-blue-500/30"
@@ -85,10 +77,6 @@ exports[`Journey matches snapshot 1`] = `
           </div>
           <div
             class="relative pl-8 md:pl-14"
-            initial="[object Object]"
-            transition="[object Object]"
-            viewport="[object Object]"
-            whileinview="[object Object]"
           >
             <div
               class="absolute left-0 top-2 w-4 h-4 bg-blue-500 rounded-full ring-4 ring-gray-950 shadow-lg shadow-blue-500/30"
@@ -136,10 +124,6 @@ exports[`Journey matches snapshot 1`] = `
           </div>
           <div
             class="relative pl-8 md:pl-14"
-            initial="[object Object]"
-            transition="[object Object]"
-            viewport="[object Object]"
-            whileinview="[object Object]"
           >
             <div
               class="absolute left-0 top-2 w-4 h-4 bg-blue-500 rounded-full ring-4 ring-gray-950 shadow-lg shadow-blue-500/30"
@@ -187,10 +171,6 @@ exports[`Journey matches snapshot 1`] = `
           </div>
           <div
             class="relative pl-8 md:pl-14"
-            initial="[object Object]"
-            transition="[object Object]"
-            viewport="[object Object]"
-            whileinview="[object Object]"
           >
             <div
               class="absolute left-0 top-2 w-4 h-4 bg-blue-500 rounded-full ring-4 ring-gray-950 shadow-lg shadow-blue-500/30"
@@ -238,10 +218,6 @@ exports[`Journey matches snapshot 1`] = `
           </div>
           <div
             class="relative pl-8 md:pl-14"
-            initial="[object Object]"
-            transition="[object Object]"
-            viewport="[object Object]"
-            whileinview="[object Object]"
           >
             <div
               class="absolute left-0 top-2 w-4 h-4 bg-blue-500 rounded-full ring-4 ring-gray-950 shadow-lg shadow-blue-500/30"

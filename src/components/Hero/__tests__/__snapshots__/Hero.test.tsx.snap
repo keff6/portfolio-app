@@ -7,10 +7,7 @@ exports[`Hero matches snapshot 1`] = `
     id="home"
   >
     <div
-      animate="[object Object]"
       class="text-center max-w-2xl"
-      initial="[object Object]"
-      transition="[object Object]"
     >
       <h1
         class="text-5xl md:text-7xl font-bold text-white mb-6"

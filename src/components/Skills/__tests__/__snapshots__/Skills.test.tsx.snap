@@ -8,10 +8,6 @@ exports[`Skills matches snapshot 1`] = `
   >
     <div
       class="max-w-6xl mx-auto"
-      initial="[object Object]"
-      transition="[object Object]"
-      viewport="[object Object]"
-      whileinview="[object Object]"
     >
       <h2
         class="text-3xl md:text-4xl font-bold text-white mb-12 text-center"
@@ -21,12 +17,7 @@ exports[`Skills matches snapshot 1`] = `
       <div
         class="space-y-10"
       >
-        <div
-          initial="[object Object]"
-          transition="[object Object]"
-          viewport="[object Object]"
-          whileinview="[object Object]"
-        >
+        <div>
           <h3
             class="text-lg font-semibold text-blue-400 mb-4"
           >
@@ -37,10 +28,6 @@ exports[`Skills matches snapshot 1`] = `
           >
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="JavaScript"
@@ -55,10 +42,6 @@ exports[`Skills matches snapshot 1`] = `
             </div>
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="TypeScript"
@@ -73,10 +56,6 @@ exports[`Skills matches snapshot 1`] = `
             </div>
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="HTML5"
@@ -91,10 +70,6 @@ exports[`Skills matches snapshot 1`] = `
             </div>
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="CSS"
@@ -109,10 +84,6 @@ exports[`Skills matches snapshot 1`] = `
             </div>
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="C#"
@@ -127,12 +98,7 @@ exports[`Skills matches snapshot 1`] = `
             </div>
           </div>
         </div>
-        <div
-          initial="[object Object]"
-          transition="[object Object]"
-          viewport="[object Object]"
-          whileinview="[object Object]"
-        >
+        <div>
           <h3
             class="text-lg font-semibold text-blue-400 mb-4"
           >
@@ -143,10 +109,6 @@ exports[`Skills matches snapshot 1`] = `
           >
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="React"
@@ -161,10 +123,6 @@ exports[`Skills matches snapshot 1`] = `
             </div>
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="Next.js"
@@ -179,10 +137,6 @@ exports[`Skills matches snapshot 1`] = `
             </div>
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="Node.js"
@@ -197,10 +151,6 @@ exports[`Skills matches snapshot 1`] = `
             </div>
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="Tailwind CSS"
@@ -215,10 +165,6 @@ exports[`Skills matches snapshot 1`] = `
             </div>
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="Prisma"
@@ -233,10 +179,6 @@ exports[`Skills matches snapshot 1`] = `
             </div>
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="Express"
@@ -251,12 +193,7 @@ exports[`Skills matches snapshot 1`] = `
             </div>
           </div>
         </div>
-        <div
-          initial="[object Object]"
-          transition="[object Object]"
-          viewport="[object Object]"
-          whileinview="[object Object]"
-        >
+        <div>
           <h3
             class="text-lg font-semibold text-blue-400 mb-4"
           >
@@ -267,10 +204,6 @@ exports[`Skills matches snapshot 1`] = `
           >
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="PostgreSQL"
@@ -285,10 +218,6 @@ exports[`Skills matches snapshot 1`] = `
             </div>
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="MySQL"
@@ -303,10 +232,6 @@ exports[`Skills matches snapshot 1`] = `
             </div>
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="SQL Server"
@@ -321,10 +246,6 @@ exports[`Skills matches snapshot 1`] = `
             </div>
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="DynamoDB"
@@ -339,12 +260,7 @@ exports[`Skills matches snapshot 1`] = `
             </div>
           </div>
         </div>
-        <div
-          initial="[object Object]"
-          transition="[object Object]"
-          viewport="[object Object]"
-          whileinview="[object Object]"
-        >
+        <div>
           <h3
             class="text-lg font-semibold text-blue-400 mb-4"
           >
@@ -355,10 +271,6 @@ exports[`Skills matches snapshot 1`] = `
           >
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="AWS"
@@ -373,10 +285,6 @@ exports[`Skills matches snapshot 1`] = `
             </div>
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="Microsoft Azure"
@@ -391,10 +299,6 @@ exports[`Skills matches snapshot 1`] = `
             </div>
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="AWS Lambda"
@@ -409,10 +313,6 @@ exports[`Skills matches snapshot 1`] = `
             </div>
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="AWS S3"
@@ -427,10 +327,6 @@ exports[`Skills matches snapshot 1`] = `
             </div>
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="AWS EC2"
@@ -445,10 +341,6 @@ exports[`Skills matches snapshot 1`] = `
             </div>
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="AWS Cognito"
@@ -463,10 +355,6 @@ exports[`Skills matches snapshot 1`] = `
             </div>
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="AWS API Gateway"
@@ -481,10 +369,6 @@ exports[`Skills matches snapshot 1`] = `
             </div>
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="Vercel"
@@ -499,12 +383,7 @@ exports[`Skills matches snapshot 1`] = `
             </div>
           </div>
         </div>
-        <div
-          initial="[object Object]"
-          transition="[object Object]"
-          viewport="[object Object]"
-          whileinview="[object Object]"
-        >
+        <div>
           <h3
             class="text-lg font-semibold text-blue-400 mb-4"
           >
@@ -515,10 +394,6 @@ exports[`Skills matches snapshot 1`] = `
           >
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="Git"
@@ -533,10 +408,6 @@ exports[`Skills matches snapshot 1`] = `
             </div>
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="Docker"
@@ -551,10 +422,6 @@ exports[`Skills matches snapshot 1`] = `
             </div>
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="OpenCode"
@@ -569,10 +436,6 @@ exports[`Skills matches snapshot 1`] = `
             </div>
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="GitHub Copilot"
@@ -587,10 +450,6 @@ exports[`Skills matches snapshot 1`] = `
             </div>
             <div
               class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
-              initial="[object Object]"
-              transition="[object Object]"
-              viewport="[object Object]"
-              whileinview="[object Object]"
             >
               <img
                 alt="REST APIs"

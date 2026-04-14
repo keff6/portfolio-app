@@ -1,18 +1,34 @@
 require('@testing-library/jest-dom');
 
-// Mock framer-motion globally
-jest.mock('framer-motion', () => ({
-  motion: {
-    div: ({ children, ...props }) => require('react').createElement('div', props, children),
-    section: ({ children, ...props }) => require('react').createElement('section', props, children),
-    button: ({ children, ...props }) => require('react').createElement('button', props, children),
-    nav: ({ children, ...props }) => require('react').createElement('nav', props, children),
-    footer: ({ children, ...props }) => require('react').createElement('footer', props, children),
-  },
-}));
+jest.mock('framer-motion', () => {
+  const React = require('react');
 
-// Mock scrollTo
-Object.defineProperty(window, 'scrollTo', {
-  value: jest.fn(),
-  writable: true,
+  const filterProps = (props) => {
+    const {
+      whileInView,
+      initial,
+      animate,
+      exit,
+      transition,
+      variants,
+      viewport,
+      layout,
+      layoutId,
+      ...rest
+    } = props;
+
+    return rest;
+  };
+
+  const createMockComponent = (tag) => {
+    return ({ children, ...props }) =>
+      React.createElement(tag, filterProps(props), children);
+  };
+
+  return {
+    motion: new Proxy({}, {
+      get: (_, tag) => createMockComponent(tag),
+    }),
+    AnimatePresence: ({ children }) => children,
+  };
 });
