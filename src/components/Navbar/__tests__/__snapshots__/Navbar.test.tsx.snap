@@ -3,61 +3,88 @@
 exports[`Navbar matches snapshot 1`] = `
 <div>
   <nav
-    class="fixed top-0 left-0 right-0 z-50 transition-colors duration-300 "
+    class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent"
   >
     <div
-      class="max-w-6xl mx-auto px-6 py-3"
+      class="max-w-6xl mx-auto px-6 py-4"
     >
       <div
         class="flex items-center justify-between"
       >
         <a
-          class="flex items-center"
+          class="flex items-center group"
           href="#"
         >
-          <img
-            alt="Kevin Fallas"
-            class="h-8 w-auto"
-            src="/logo.png"
-          />
+          <div
+            class="relative"
+          >
+            <img
+              alt="Kevin Fallas"
+              class="h-8 w-auto transition-all duration-300 group-hover:opacity-80"
+              src="/logo.png"
+            />
+            <span
+              class="absolute -inset-2 rounded-full bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            />
+          </div>
         </a>
         <div
-          class="hidden md:flex items-center gap-8"
+          class="hidden md:flex items-center gap-1"
         >
           <a
-            class="transition-colors text-gray-400 hover:text-white"
+            class="relative px-4 py-2 text-sm font-medium transition-all duration-200 text-slate-400 hover:text-slate-200"
             href="#home"
           >
-            Home
+            <span
+              class="relative z-10"
+            >
+              Home
+            </span>
           </a>
           <a
-            class="transition-colors text-gray-400 hover:text-white"
+            class="relative px-4 py-2 text-sm font-medium transition-all duration-200 text-slate-400 hover:text-slate-200"
             href="#about"
           >
-            About
+            <span
+              class="relative z-10"
+            >
+              About
+            </span>
           </a>
           <a
-            class="transition-colors text-gray-400 hover:text-white"
+            class="relative px-4 py-2 text-sm font-medium transition-all duration-200 text-slate-400 hover:text-slate-200"
             href="#skills"
           >
-            Skills
+            <span
+              class="relative z-10"
+            >
+              Skills
+            </span>
           </a>
           <a
-            class="transition-colors text-gray-400 hover:text-white"
+            class="relative px-4 py-2 text-sm font-medium transition-all duration-200 text-slate-400 hover:text-slate-200"
             href="#journey"
           >
-            Journey
+            <span
+              class="relative z-10"
+            >
+              Journey
+            </span>
           </a>
           <a
-            class="transition-colors text-gray-400 hover:text-white"
+            class="relative px-4 py-2 text-sm font-medium transition-all duration-200 text-slate-400 hover:text-slate-200"
             href="#projects"
           >
-            Projects
+            <span
+              class="relative z-10"
+            >
+              Projects
+            </span>
           </a>
         </div>
         <button
           aria-label="Toggle menu"
-          class="md:hidden p-2 text-gray-400 hover:text-white"
+          class="md:hidden p-2 text-slate-400 hover:text-white transition-colors"
         >
           <svg
             aria-hidden="true"

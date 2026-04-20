@@ -5,6 +5,10 @@ jest.mock('framer-motion', () => {
 
   const filterProps = (props) => {
     const {
+      whileHover,
+      whileTap,
+      whileFocus,
+      whileDrag,
       whileInView,
       initial,
       animate,
@@ -12,6 +16,14 @@ jest.mock('framer-motion', () => {
       transition,
       variants,
       viewport,
+      drag,
+      dragConstraints,
+      dragElastic,
+      dragMomentum,
+      dragTransition,
+      onDrag,
+      onDragStart,
+      onDragEnd,
       layout,
       layoutId,
       ...rest

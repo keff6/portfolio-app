@@ -3,13 +3,6 @@
 import { motion } from "framer-motion";
 import { skills } from "@/data/skills";
 
-/**
- * Gets the abbreviated initials for a skill name.
- * Uses a predefined mapping for common skills, falls back to first 2 characters.
- * 
- * @param name - The full skill name
- * @returns The abbreviated initials (e.g., "JS" for "JavaScript")
- */
 const getInitials = (name: string): string => {
   const exceptions: Record<string, string> = {
     "JavaScript": "JS",
@@ -43,26 +36,25 @@ const getInitials = (name: string): string => {
   return exceptions[name] || name.substring(0, 2).toUpperCase();
 };
 
-/**
- * Renders the Skills section displaying categorized expertise with icons.
- * Uses Framer Motion for scroll-triggered animations.
- * 
- * @returns The Skills section JSX element
- */
 export default function Skills() {
   return (
-    <section id="skills" className="py-24 px-6 bg-gray-950/50">
+    <section id="skills" className="py-24 px-6 relative">
+      <div className="absolute inset-0 bg-slate-950/50" />
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] rounded-full bg-blue-500/5 blur-[100px]" />
+        <div className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] rounded-full bg-blue-500/3 blur-[80px]" />
+      </div>
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="max-w-6xl mx-auto"
+        className="max-w-6xl mx-auto relative z-10"
       >
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-center">
           Skills & Expertise
         </h2>
-        <div className="space-y-10">
+        <div className="space-y-12">
           {skills.map((category, categoryIndex) => (
             <motion.div
               key={category.title}
@@ -71,36 +63,41 @@ export default function Skills() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: categoryIndex * 0.1 }}
             >
-              <h3 className="text-lg font-semibold text-blue-400 mb-4">
+              <h3 className="text-lg font-semibold text-blue-400 mb-5 flex items-center gap-3">
+                <span className="w-8 h-px bg-gradient-to-r from-blue-500/50 to-transparent" />
                 {category.title}
               </h3>
               <div className="flex flex-wrap gap-3">
                 {category.skills.map((skill, skillIndex) => (
                   <motion.div
                     key={skill.name}
-                    initial={{ opacity: 0, scale: 0.9 }}
+                    initial={{ opacity: 0, scale: 0.95 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
                     transition={{
                       duration: 0.3,
                       delay: categoryIndex * 0.1 + skillIndex * 0.05,
                     }}
-                    className="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+                    whileHover={{ scale: 1.03 }}
+                    className="group relative"
                   >
-                    {skill.icon ? (
-                      <img
-                        src={`/icons/skills/${skill.icon}.svg`}
-                        alt={skill.name}
-                        className="w-6 h-6"
-                      />
-                    ) : (
-                      <span className="flex items-center justify-center w-6 h-6 text-xs font-bold bg-blue-600 text-white rounded">
-                        {getInitials(skill.name)}
+                    <div className="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                    <div className="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300">
+                      {skill.icon ? (
+                        <img
+                          src={`/icons/skills/${skill.icon}.svg`}
+                          alt={skill.name}
+                          className="w-5 h-5"
+                        />
+                      ) : (
+                        <span className="flex items-center justify-center w-5 h-5 text-[10px] font-bold bg-blue-500/20 text-blue-300 rounded">
+                          {getInitials(skill.name)}
+                        </span>
+                      )}
+                      <span className="text-sm text-slate-300 group-hover:text-white transition-colors">
+                        {skill.name}
                       </span>
-                    )}
-                    <span className="text-gray-300 group-hover:text-white transition-colors">
-                      {skill.name}
-                    </span>
+                    </div>
                   </motion.div>
                 ))}
               </div>

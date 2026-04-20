@@ -3,22 +3,43 @@
 exports[`Footer matches snapshot 1`] = `
 <div>
   <footer
-    class="py-12 px-6 border-t border-gray-800"
+    class="py-16 px-6 border-t border-slate-800/50 relative"
   >
     <div
-      class="max-w-4xl mx-auto text-center"
+      class="absolute inset-0 overflow-hidden pointer-events-none"
     >
       <div
-        class="flex justify-center gap-6 mb-6"
+        class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] rounded-full bg-blue-500/5 blur-[100px]"
+      />
+    </div>
+    <div
+      class="max-w-4xl mx-auto text-center relative z-10"
+    >
+      <div
+        class="mb-8"
+      >
+        <h3
+          class="text-xl font-semibold text-white mb-4"
+        >
+          Let's Connect
+        </h3>
+        <p
+          class="text-slate-400 mb-8 max-w-md mx-auto"
+        >
+          Feel free to reach out for collaborations, opportunities, or just to say hello.
+        </p>
+      </div>
+      <div
+        class="flex justify-center gap-4 mb-10"
       >
         <a
           aria-label="Email"
-          class="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors"
+          class="group p-4 bg-slate-900/80 border border-slate-800 rounded-xl hover:border-blue-500/30 transition-all duration-300"
           href="mailto:kev.fallas@gmail.com"
         >
           <svg
             aria-hidden="true"
-            class="lucide lucide-mail text-gray-400 hover:text-white"
+            class="lucide lucide-mail text-slate-400 group-hover:text-white transition-colors"
             fill="none"
             height="20"
             stroke="currentColor"
@@ -43,13 +64,13 @@ exports[`Footer matches snapshot 1`] = `
         </a>
         <a
           aria-label="LinkedIn"
-          class="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors"
+          class="group p-4 bg-slate-900/80 border border-slate-800 rounded-xl hover:border-blue-500/30 transition-all duration-300"
           href="https://www.linkedin.com/in/kevin-fallas/"
           rel="noopener noreferrer"
           target="_blank"
         >
           <svg
-            class="text-gray-400 hover:text-white"
+            class="text-slate-400 group-hover:text-white transition-colors"
             fill="currentColor"
             height="20"
             viewBox="0 0 24 24"
@@ -62,13 +83,13 @@ exports[`Footer matches snapshot 1`] = `
         </a>
         <a
           aria-label="GitHub"
-          class="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors"
+          class="group p-4 bg-slate-900/80 border border-slate-800 rounded-xl hover:border-blue-500/30 transition-all duration-300"
           href="https://github.com/keff6"
           rel="noopener noreferrer"
           target="_blank"
         >
           <svg
-            class="text-gray-400 hover:text-white"
+            class="text-slate-400 group-hover:text-white transition-colors"
             fill="currentColor"
             height="20"
             viewBox="0 0 24 24"
@@ -80,13 +101,17 @@ exports[`Footer matches snapshot 1`] = `
           </svg>
         </a>
       </div>
-      <p
-        class="text-gray-500 text-sm"
+      <div
+        class="pt-8 border-t border-slate-800/50"
       >
-        © 
-        2026
-         Kevin Fallas. Built with Next.js.
-      </p>
+        <p
+          class="text-slate-500 text-sm"
+        >
+          © 
+          2026
+           Kevin Fallas. Built with Next.js
+        </p>
+      </div>
     </div>
   </footer>
 </div>

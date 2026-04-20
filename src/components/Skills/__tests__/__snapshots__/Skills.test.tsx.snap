@@ -3,11 +3,24 @@
 exports[`Skills matches snapshot 1`] = `
 <div>
   <section
-    class="py-24 px-6 bg-gray-950/50"
+    class="py-24 px-6 relative"
     id="skills"
   >
     <div
-      class="max-w-6xl mx-auto"
+      class="absolute inset-0 bg-slate-950/50"
+    />
+    <div
+      class="absolute inset-0 overflow-hidden pointer-events-none"
+    >
+      <div
+        class="absolute top-1/4 left-1/4 w-[500px] h-[500px] rounded-full bg-blue-500/5 blur-[100px]"
+      />
+      <div
+        class="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] rounded-full bg-blue-500/3 blur-[80px]"
+      />
+    </div>
+    <div
+      class="max-w-6xl mx-auto relative z-10"
     >
       <h2
         class="text-3xl md:text-4xl font-bold text-white mb-12 text-center"
@@ -15,452 +28,663 @@ exports[`Skills matches snapshot 1`] = `
         Skills & Expertise
       </h2>
       <div
-        class="space-y-10"
+        class="space-y-12"
       >
         <div>
           <h3
-            class="text-lg font-semibold text-blue-400 mb-4"
+            class="text-lg font-semibold text-blue-400 mb-5 flex items-center gap-3"
           >
+            <span
+              class="w-8 h-px bg-gradient-to-r from-blue-500/50 to-transparent"
+            />
             Languages
           </h3>
           <div
             class="flex flex-wrap gap-3"
           >
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="JavaScript"
-                class="w-6 h-6"
-                src="/icons/skills/javascript.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                JavaScript
-              </span>
+                <img
+                  alt="JavaScript"
+                  class="w-5 h-5"
+                  src="/icons/skills/javascript.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  JavaScript
+                </span>
+              </div>
             </div>
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="TypeScript"
-                class="w-6 h-6"
-                src="/icons/skills/typescript.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                TypeScript
-              </span>
+                <img
+                  alt="TypeScript"
+                  class="w-5 h-5"
+                  src="/icons/skills/typescript.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  TypeScript
+                </span>
+              </div>
             </div>
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="HTML5"
-                class="w-6 h-6"
-                src="/icons/skills/html.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                HTML5
-              </span>
+                <img
+                  alt="HTML5"
+                  class="w-5 h-5"
+                  src="/icons/skills/html.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  HTML5
+                </span>
+              </div>
             </div>
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="CSS"
-                class="w-6 h-6"
-                src="/icons/skills/css.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                CSS
-              </span>
+                <img
+                  alt="CSS"
+                  class="w-5 h-5"
+                  src="/icons/skills/css.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  CSS
+                </span>
+              </div>
             </div>
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="C#"
-                class="w-6 h-6"
-                src="/icons/skills/csharp.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                C#
-              </span>
+                <img
+                  alt="C#"
+                  class="w-5 h-5"
+                  src="/icons/skills/csharp.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  C#
+                </span>
+              </div>
             </div>
           </div>
         </div>
         <div>
           <h3
-            class="text-lg font-semibold text-blue-400 mb-4"
+            class="text-lg font-semibold text-blue-400 mb-5 flex items-center gap-3"
           >
+            <span
+              class="w-8 h-px bg-gradient-to-r from-blue-500/50 to-transparent"
+            />
             Frameworks & Libraries
           </h3>
           <div
             class="flex flex-wrap gap-3"
           >
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="React"
-                class="w-6 h-6"
-                src="/icons/skills/react.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                React
-              </span>
+                <img
+                  alt="React"
+                  class="w-5 h-5"
+                  src="/icons/skills/react.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  React
+                </span>
+              </div>
             </div>
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="Next.js"
-                class="w-6 h-6"
-                src="/icons/skills/nextjs.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                Next.js
-              </span>
+                <img
+                  alt="Next.js"
+                  class="w-5 h-5"
+                  src="/icons/skills/nextjs.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  Next.js
+                </span>
+              </div>
             </div>
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="Node.js"
-                class="w-6 h-6"
-                src="/icons/skills/nodejs.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                Node.js
-              </span>
+                <img
+                  alt="Node.js"
+                  class="w-5 h-5"
+                  src="/icons/skills/nodejs.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  Node.js
+                </span>
+              </div>
             </div>
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="Tailwind CSS"
-                class="w-6 h-6"
-                src="/icons/skills/tailwind.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                Tailwind CSS
-              </span>
+                <img
+                  alt="Tailwind CSS"
+                  class="w-5 h-5"
+                  src="/icons/skills/tailwind.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  Tailwind CSS
+                </span>
+              </div>
             </div>
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="Prisma"
-                class="w-6 h-6"
-                src="/icons/skills/prisma.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                Prisma
-              </span>
+                <img
+                  alt="Prisma"
+                  class="w-5 h-5"
+                  src="/icons/skills/prisma.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  Prisma
+                </span>
+              </div>
             </div>
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="Express"
-                class="w-6 h-6"
-                src="/icons/skills/express.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                Express
-              </span>
+                <img
+                  alt="Express"
+                  class="w-5 h-5"
+                  src="/icons/skills/express.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  Express
+                </span>
+              </div>
             </div>
           </div>
         </div>
         <div>
           <h3
-            class="text-lg font-semibold text-blue-400 mb-4"
+            class="text-lg font-semibold text-blue-400 mb-5 flex items-center gap-3"
           >
+            <span
+              class="w-8 h-px bg-gradient-to-r from-blue-500/50 to-transparent"
+            />
             Databases
           </h3>
           <div
             class="flex flex-wrap gap-3"
           >
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="PostgreSQL"
-                class="w-6 h-6"
-                src="/icons/skills/postgresql.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                PostgreSQL
-              </span>
+                <img
+                  alt="PostgreSQL"
+                  class="w-5 h-5"
+                  src="/icons/skills/postgresql.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  PostgreSQL
+                </span>
+              </div>
             </div>
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="MySQL"
-                class="w-6 h-6"
-                src="/icons/skills/mysql.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                MySQL
-              </span>
+                <img
+                  alt="MySQL"
+                  class="w-5 h-5"
+                  src="/icons/skills/mysql.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  MySQL
+                </span>
+              </div>
             </div>
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="SQL Server"
-                class="w-6 h-6"
-                src="/icons/skills/sqlserver.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                SQL Server
-              </span>
+                <img
+                  alt="SQL Server"
+                  class="w-5 h-5"
+                  src="/icons/skills/sqlserver.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  SQL Server
+                </span>
+              </div>
             </div>
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="DynamoDB"
-                class="w-6 h-6"
-                src="/icons/skills/dynamodb.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                DynamoDB
-              </span>
+                <img
+                  alt="DynamoDB"
+                  class="w-5 h-5"
+                  src="/icons/skills/dynamodb.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  DynamoDB
+                </span>
+              </div>
             </div>
           </div>
         </div>
         <div>
           <h3
-            class="text-lg font-semibold text-blue-400 mb-4"
+            class="text-lg font-semibold text-blue-400 mb-5 flex items-center gap-3"
           >
+            <span
+              class="w-8 h-px bg-gradient-to-r from-blue-500/50 to-transparent"
+            />
             Cloud
           </h3>
           <div
             class="flex flex-wrap gap-3"
           >
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="AWS"
-                class="w-6 h-6"
-                src="/icons/skills/aws.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                AWS
-              </span>
+                <img
+                  alt="AWS"
+                  class="w-5 h-5"
+                  src="/icons/skills/aws.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  AWS
+                </span>
+              </div>
             </div>
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="Microsoft Azure"
-                class="w-6 h-6"
-                src="/icons/skills/azure.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                Microsoft Azure
-              </span>
+                <img
+                  alt="Microsoft Azure"
+                  class="w-5 h-5"
+                  src="/icons/skills/azure.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  Microsoft Azure
+                </span>
+              </div>
             </div>
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="AWS Lambda"
-                class="w-6 h-6"
-                src="/icons/skills/lambda.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                AWS Lambda
-              </span>
+                <img
+                  alt="AWS Lambda"
+                  class="w-5 h-5"
+                  src="/icons/skills/lambda.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  AWS Lambda
+                </span>
+              </div>
             </div>
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="AWS S3"
-                class="w-6 h-6"
-                src="/icons/skills/s3.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                AWS S3
-              </span>
+                <img
+                  alt="AWS S3"
+                  class="w-5 h-5"
+                  src="/icons/skills/s3.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  AWS S3
+                </span>
+              </div>
             </div>
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="AWS EC2"
-                class="w-6 h-6"
-                src="/icons/skills/ec2.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                AWS EC2
-              </span>
+                <img
+                  alt="AWS EC2"
+                  class="w-5 h-5"
+                  src="/icons/skills/ec2.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  AWS EC2
+                </span>
+              </div>
             </div>
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="AWS Cognito"
-                class="w-6 h-6"
-                src="/icons/skills/cognito.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                AWS Cognito
-              </span>
+                <img
+                  alt="AWS Cognito"
+                  class="w-5 h-5"
+                  src="/icons/skills/cognito.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  AWS Cognito
+                </span>
+              </div>
             </div>
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="AWS API Gateway"
-                class="w-6 h-6"
-                src="/icons/skills/apigateway.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                AWS API Gateway
-              </span>
+                <img
+                  alt="AWS API Gateway"
+                  class="w-5 h-5"
+                  src="/icons/skills/apigateway.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  AWS API Gateway
+                </span>
+              </div>
             </div>
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="Vercel"
-                class="w-6 h-6"
-                src="/icons/skills/vercel.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                Vercel
-              </span>
+                <img
+                  alt="Vercel"
+                  class="w-5 h-5"
+                  src="/icons/skills/vercel.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  Vercel
+                </span>
+              </div>
             </div>
           </div>
         </div>
         <div>
           <h3
-            class="text-lg font-semibold text-blue-400 mb-4"
+            class="text-lg font-semibold text-blue-400 mb-5 flex items-center gap-3"
           >
+            <span
+              class="w-8 h-px bg-gradient-to-r from-blue-500/50 to-transparent"
+            />
             Tools & Platforms
           </h3>
           <div
             class="flex flex-wrap gap-3"
           >
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="Git"
-                class="w-6 h-6"
-                src="/icons/skills/git.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                Git
-              </span>
+                <img
+                  alt="Git"
+                  class="w-5 h-5"
+                  src="/icons/skills/git.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  Git
+                </span>
+              </div>
             </div>
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="Docker"
-                class="w-6 h-6"
-                src="/icons/skills/docker.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                Docker
-              </span>
+                <img
+                  alt="Docker"
+                  class="w-5 h-5"
+                  src="/icons/skills/docker.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  Docker
+                </span>
+              </div>
             </div>
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="OpenCode"
-                class="w-6 h-6"
-                src="/icons/skills/opencode.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                OpenCode
-              </span>
+                <img
+                  alt="OpenCode"
+                  class="w-5 h-5"
+                  src="/icons/skills/opencode.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  OpenCode
+                </span>
+              </div>
             </div>
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="GitHub Copilot"
-                class="w-6 h-6"
-                src="/icons/skills/copilot.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                GitHub Copilot
-              </span>
+                <img
+                  alt="GitHub Copilot"
+                  class="w-5 h-5"
+                  src="/icons/skills/copilot.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  GitHub Copilot
+                </span>
+              </div>
             </div>
             <div
-              class="group flex items-center gap-2 px-4 py-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-blue-600 hover:bg-gray-800 transition-all duration-300 cursor-default"
+              class="group relative"
             >
-              <img
-                alt="REST APIs"
-                class="w-6 h-6"
-                src="/icons/skills/api.svg"
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
-              <span
-                class="text-gray-300 group-hover:text-white transition-colors"
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
-                REST APIs
-              </span>
+                <img
+                  alt="REST APIs"
+                  class="w-5 h-5"
+                  src="/icons/skills/api.svg"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  REST APIs
+                </span>
+              </div>
             </div>
           </div>
         </div>

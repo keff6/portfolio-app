@@ -20,7 +20,7 @@ describe('About', () => {
     render(<About />);
     expect(screen.getByText(/Software Engineer/i)).toBeInTheDocument();
     expect(screen.getByText(/10\+ years of experience/i)).toBeInTheDocument();
-    expect(screen.getByText(/Across the stack/i)).toBeInTheDocument();
+    expect(screen.getByText(/across the full stack/i)).toBeInTheDocument();
   });
 
   it('matches snapshot', () => {
