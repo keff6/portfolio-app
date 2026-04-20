@@ -61,13 +61,10 @@
 
 html {
   scroll-behavior: smooth;
-  /* Offset in-page anchor/scrollIntoView for fixed navbar */
-  scroll-padding-top: 88px;
+
+
 }
 
-section[id] {
-  scroll-margin-top: 88px;
-}
 
 body {
   background: var(--surface-base);
