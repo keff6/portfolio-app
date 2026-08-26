@@ -34,7 +34,7 @@ exports[`Footer matches snapshot 1`] = `
       >
         <a
           aria-label="Email"
-          class="group p-4 bg-slate-900/80 border border-slate-800 rounded-xl hover:border-blue-500/30 transition-all duration-300"
+          class="group p-4 bg-slate-900/80 border border-slate-800 rounded-xl hover:border-blue-500/30 hover:-translate-y-0.5 hover:scale-105 active:scale-95 transition-all duration-300"
           href="mailto:kev.fallas@gmail.com"
         >
           <svg
@@ -64,7 +64,7 @@ exports[`Footer matches snapshot 1`] = `
         </a>
         <a
           aria-label="LinkedIn"
-          class="group p-4 bg-slate-900/80 border border-slate-800 rounded-xl hover:border-blue-500/30 transition-all duration-300"
+          class="group p-4 bg-slate-900/80 border border-slate-800 rounded-xl hover:border-blue-500/30 hover:-translate-y-0.5 hover:scale-105 active:scale-95 transition-all duration-300"
           href="https://www.linkedin.com/in/kevin-fallas/"
           rel="noopener noreferrer"
           target="_blank"
@@ -83,7 +83,7 @@ exports[`Footer matches snapshot 1`] = `
         </a>
         <a
           aria-label="GitHub"
-          class="group p-4 bg-slate-900/80 border border-slate-800 rounded-xl hover:border-blue-500/30 transition-all duration-300"
+          class="group p-4 bg-slate-900/80 border border-slate-800 rounded-xl hover:border-blue-500/30 hover:-translate-y-0.5 hover:scale-105 active:scale-95 transition-all duration-300"
           href="https://github.com/keff6"
           rel="noopener noreferrer"
           target="_blank"

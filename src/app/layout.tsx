@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Analytics } from '@vercel/analytics/next';
 import { Inter } from "next/font/google";
 import { SITE } from "@/lib/site";
+import MotionProvider from "@/components/motion/MotionProvider";
 import "./globals.css";
 
 const inter = Inter({
@@ -106,7 +107,7 @@ export default function RootLayout({
         />
       </head>
       <body className={`${inter.className} min-h-screen bg-slate-950`}>
-        {children}
+        <MotionProvider>{children}</MotionProvider>
         <Analytics />
       </body>
     </html>

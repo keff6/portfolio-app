@@ -35,7 +35,7 @@ exports[`Projects matches snapshot 1`] = `
           >
             <button
               aria-label="View larger preview of TimeIn - Team Productivity App"
-              class="block w-full overflow-hidden rounded-lg mb-4 cursor-pointer"
+              class="block w-full overflow-hidden rounded-lg mb-4 cursor-pointer hover:scale-[1.02] transition-transform duration-300"
               type="button"
             >
               <img
@@ -120,7 +120,7 @@ exports[`Projects matches snapshot 1`] = `
           >
             <button
               aria-label="View larger preview of GamesCollection - Personal Game Library Manager"
-              class="block w-full overflow-hidden rounded-lg mb-4 cursor-pointer"
+              class="block w-full overflow-hidden rounded-lg mb-4 cursor-pointer hover:scale-[1.02] transition-transform duration-300"
               type="button"
             >
               <img
@@ -208,7 +208,7 @@ exports[`Projects matches snapshot 1`] = `
               class="flex gap-5"
             >
               <a
-                class="flex items-center gap-2 text-slate-400 hover:text-white transition-colors"
+                class="flex items-center gap-2 text-slate-400 hover:text-white hover:scale-105 active:scale-95 transition-all"
                 href="https://github.com/keff6/gamescollection_ai"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -231,7 +231,7 @@ exports[`Projects matches snapshot 1`] = `
                 </span>
               </a>
               <a
-                class="flex items-center gap-2 text-slate-400 hover:text-white transition-colors"
+                class="flex items-center gap-2 text-slate-400 hover:text-white hover:scale-105 active:scale-95 transition-all"
                 href="https://gamescollection-kappa.vercel.app/"
                 rel="noopener noreferrer"
                 target="_blank"

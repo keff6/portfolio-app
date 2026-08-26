@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { m, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import { useScrolled } from "@/hooks/useScrolled";
@@ -71,7 +71,7 @@ export default function Navbar() {
                 }`}
               >
                 {activeSection === link.href.slice(1) && (
-                  <motion.span
+                  <m.span
                     layoutId="navbar-indicator"
                     className="absolute inset-0 rounded-md bg-blue-500/10 border border-blue-500/20"
                     transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
@@ -91,7 +91,7 @@ export default function Navbar() {
         </div>
         <AnimatePresence>
           {isOpen && (
-            <motion.div
+            <m.div
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
@@ -114,7 +114,7 @@ export default function Navbar() {
                   </a>
                 ))}
               </div>
-            </motion.div>
+            </m.div>
           )}
         </AnimatePresence>
       </div>
