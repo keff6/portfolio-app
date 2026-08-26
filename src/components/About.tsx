@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { Reveal } from "@/components/motion/Reveal";
 
 export default function About() {
   return (
@@ -7,12 +6,12 @@ export default function About() {
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-1/2 left-0 w-[400px] h-[400px] rounded-full bg-blue-500/3 blur-[80px]" />
       </div>
-      <Reveal className="max-w-4xl mx-auto relative z-10">
+      <div className="max-w-4xl mx-auto relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-center">
           About Me
         </h2>
         <div className="flex flex-col md:flex-row items-center gap-10">
-          <Reveal variant="scaleIn" duration={0.5} className="relative flex-shrink-0">
+          <div className="relative flex-shrink-0">
             <div className="absolute inset-0 rounded-full bg-blue-500/20 blur-xl" />
             <div className="absolute inset-0 rounded-full border border-blue-500/30" />
             <Image
@@ -22,7 +21,7 @@ export default function About() {
               height={192}
               className="relative w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-slate-800"
             />
-          </Reveal>
+          </div>
           <div className="text-slate-300 space-y-5">
             <p className="text-lg leading-relaxed">
               I'm a Software Engineer with 10+ years of experience building
@@ -41,13 +40,13 @@ export default function About() {
               technologies, contributing to open source, or sharing knowledge
               with the community.
             </p>
-            <Reveal as="p" variant="fadeIn" duration={0.5} delay={0.2} className="text-blue-400 font-medium flex items-center gap-2">
+            <p className="text-blue-400 font-medium flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse" />
               Currently based in Costa Rica, open to remote / relocation opportunities worldwide.
-            </Reveal>
+            </p>
           </div>
         </div>
-      </Reveal>
+      </div>
     </section>
   );
 }

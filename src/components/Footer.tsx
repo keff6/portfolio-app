@@ -2,7 +2,6 @@ import { Mail } from "lucide-react";
 import { GithubIcon } from "@/components/icons/GithubIcon";
 import { LinkedinIcon } from "@/components/icons/LinkedinIcon";
 import { SITE } from "@/lib/site";
-import { Reveal } from "@/components/motion/Reveal";
 
 export default function Footer() {
   return (
@@ -11,12 +10,12 @@ export default function Footer() {
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] rounded-full bg-blue-500/5 blur-[100px]" />
       </div>
       <div className="max-w-4xl mx-auto text-center relative z-10">
-        <Reveal duration={0.5} className="mb-8">
+        <div className="mb-8">
           <h3 className="text-xl font-semibold text-white mb-4">Let's Connect</h3>
           <p className="text-slate-400 mb-8 max-w-md mx-auto">
             Feel free to reach out for collaborations, opportunities, or just to say hello.
           </p>
-        </Reveal>
+        </div>
         <div className="flex justify-center gap-4 mb-10">
           <a
             href={`mailto:${SITE.email}`}

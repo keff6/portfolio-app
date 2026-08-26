@@ -7,8 +7,6 @@ import Image from "next/image";
 import { projects } from "@/data/projects";
 import { GithubIcon } from "@/components/icons/GithubIcon";
 import type { Project } from "@/lib/types";
-import { STAGGER_STEP } from "@/lib/motion";
-import { RevealGroup, RevealItem } from "@/components/motion/Reveal";
 
 export default function Projects() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
@@ -19,13 +17,13 @@ export default function Projects() {
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute -top-[20%] left-1/3 w-[600px] h-[600px] rounded-full bg-blue-500/5 blur-[100px]" />
         </div>
-        <RevealGroup staggerChildren={STAGGER_STEP.category} className="max-w-6xl mx-auto relative z-10">
+        <div className="max-w-6xl mx-auto relative z-10">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-center">
             Projects
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             {projects.map((project) => (
-              <RevealItem key={project.id} whileHover={{ y: -4 }} className="group relative">
+              <div key={project.id} className="group relative hover:-translate-y-1 transition-transform duration-300">
                 <div className="absolute inset-0 rounded-xl bg-blue-500/10 blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <div className="relative bg-slate-900/80 backdrop-blur-sm p-6 rounded-xl border border-slate-800 hover:border-blue-500/30 transition-all duration-300">
                   {project.thumbnail && project.thumbnailWidth && project.thumbnailHeight && (
@@ -90,10 +88,10 @@ export default function Projects() {
                     )}
                   </div>
                 </div>
-              </RevealItem>
+              </div>
             ))}
           </div>
-        </RevealGroup>
+        </div>
       </section>
 
       <AnimatePresence>

@@ -43,7 +43,7 @@ exports[`Skills matches snapshot 1`] = `
             class="flex flex-wrap gap-3"
           >
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -66,7 +66,7 @@ exports[`Skills matches snapshot 1`] = `
               </div>
             </div>
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -89,7 +89,7 @@ exports[`Skills matches snapshot 1`] = `
               </div>
             </div>
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -112,7 +112,7 @@ exports[`Skills matches snapshot 1`] = `
               </div>
             </div>
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -135,7 +135,7 @@ exports[`Skills matches snapshot 1`] = `
               </div>
             </div>
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -172,7 +172,7 @@ exports[`Skills matches snapshot 1`] = `
             class="flex flex-wrap gap-3"
           >
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -195,7 +195,7 @@ exports[`Skills matches snapshot 1`] = `
               </div>
             </div>
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -218,7 +218,7 @@ exports[`Skills matches snapshot 1`] = `
               </div>
             </div>
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -241,7 +241,7 @@ exports[`Skills matches snapshot 1`] = `
               </div>
             </div>
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -264,7 +264,7 @@ exports[`Skills matches snapshot 1`] = `
               </div>
             </div>
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -287,7 +287,7 @@ exports[`Skills matches snapshot 1`] = `
               </div>
             </div>
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -324,7 +324,7 @@ exports[`Skills matches snapshot 1`] = `
             class="flex flex-wrap gap-3"
           >
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -347,7 +347,7 @@ exports[`Skills matches snapshot 1`] = `
               </div>
             </div>
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -370,7 +370,7 @@ exports[`Skills matches snapshot 1`] = `
               </div>
             </div>
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -393,7 +393,7 @@ exports[`Skills matches snapshot 1`] = `
               </div>
             </div>
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -430,7 +430,7 @@ exports[`Skills matches snapshot 1`] = `
             class="flex flex-wrap gap-3"
           >
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -453,7 +453,7 @@ exports[`Skills matches snapshot 1`] = `
               </div>
             </div>
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -476,7 +476,7 @@ exports[`Skills matches snapshot 1`] = `
               </div>
             </div>
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -499,7 +499,7 @@ exports[`Skills matches snapshot 1`] = `
               </div>
             </div>
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -522,7 +522,7 @@ exports[`Skills matches snapshot 1`] = `
               </div>
             </div>
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -545,7 +545,7 @@ exports[`Skills matches snapshot 1`] = `
               </div>
             </div>
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -568,7 +568,7 @@ exports[`Skills matches snapshot 1`] = `
               </div>
             </div>
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -591,7 +591,7 @@ exports[`Skills matches snapshot 1`] = `
               </div>
             </div>
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -628,7 +628,7 @@ exports[`Skills matches snapshot 1`] = `
             class="flex flex-wrap gap-3"
           >
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -651,7 +651,7 @@ exports[`Skills matches snapshot 1`] = `
               </div>
             </div>
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -674,7 +674,7 @@ exports[`Skills matches snapshot 1`] = `
               </div>
             </div>
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -697,7 +697,7 @@ exports[`Skills matches snapshot 1`] = `
               </div>
             </div>
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -720,7 +720,7 @@ exports[`Skills matches snapshot 1`] = `
               </div>
             </div>
             <div
-              class="group relative"
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
             >
               <div
                 class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
