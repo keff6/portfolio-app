@@ -2,7 +2,6 @@ import { Mail, FileDown } from "lucide-react";
 import { GithubIcon } from "@/components/icons/GithubIcon";
 import { LinkedinIcon } from "@/components/icons/LinkedinIcon";
 import { SITE } from "@/lib/site";
-import { Reveal } from "@/components/motion/Reveal";
 
 export default function Hero() {
   return (
@@ -11,17 +10,11 @@ export default function Hero() {
         <div className="absolute -top-[40%] -right-[20%] w-[600px] h-[600px] rounded-full bg-blue-500/5 blur-[100px]" />
         <div className="absolute -bottom-[40%] -left-[20%] w-[600px] h-[600px] rounded-full bg-blue-500/5 blur-[100px]" />
       </div>
-      <Reveal trigger="mount" duration={0.6} className="text-center max-w-3xl relative z-10">
-        <Reveal
-          trigger="mount"
-          variant="scaleIn"
-          duration={0.5}
-          delay={0.1}
-          className="mb-6 inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20"
-        >
+      <div className="text-center max-w-3xl relative z-10">
+        <div className="mb-6 inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20">
           <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse" />
           <span className="text-sm text-blue-300">Available for opportunities</span>
-        </Reveal>
+        </div>
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 tracking-tight">
           Kevin Fallas
         </h1>
@@ -66,20 +59,14 @@ export default function Hero() {
             Resume
           </a>
         </div>
-      </Reveal>
-      <Reveal
-        trigger="mount"
-        variant="fadeIn"
-        duration={0.5}
-        delay={0.4}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
-      >
+      </div>
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2">
         <div className="w-6 h-6 text-slate-500 animate-bounce">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             <path d="M12 5v14M5 12l7 7 7-7" />
           </svg>
         </div>
-      </Reveal>
+      </div>
     </section>
   );
 }

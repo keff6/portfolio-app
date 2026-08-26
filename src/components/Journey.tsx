@@ -1,6 +1,4 @@
 import { jobs } from "@/data/journey";
-import { STAGGER_STEP } from "@/lib/motion";
-import { RevealGroup, RevealItem } from "@/components/motion/Reveal";
 
 export default function Journey() {
   return (
@@ -9,7 +7,7 @@ export default function Journey() {
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-1/3 right-0 w-[500px] h-[500px] rounded-full bg-blue-500/5 blur-[100px]" />
       </div>
-      <RevealGroup staggerChildren={STAGGER_STEP.category} className="max-w-4xl mx-auto relative z-10">
+      <div className="max-w-4xl mx-auto relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-center">
           Experience
         </h2>
@@ -17,7 +15,7 @@ export default function Journey() {
           <div className="absolute left-[11px] top-4 bottom-4 w-0.5 bg-gradient-to-b from-blue-500/40 via-blue-500/20 to-transparent" />
           <div className="space-y-8">
             {jobs.map((job) => (
-              <RevealItem key={job.id} variant="slideInLeft" className="relative pl-10">
+              <div key={job.id} className="relative pl-10">
                 <div className="absolute left-0 top-3 w-6 h-6">
                   <div className="w-6 h-6 rounded-full bg-slate-900 border-2 border-blue-500/50" />
                   <div className="absolute inset-0 rounded-full bg-blue-500/20 animate-pulse" />
@@ -46,11 +44,11 @@ export default function Journey() {
                     ))}
                   </div>
                 </div>
-              </RevealItem>
+              </div>
             ))}
           </div>
         </div>
-      </RevealGroup>
+      </div>
     </section>
   );
 }
