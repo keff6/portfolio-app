@@ -22,7 +22,7 @@ exports[`Journey matches snapshot 1`] = `
       <h2
         class="text-3xl md:text-4xl font-bold text-white mb-12 text-center"
       >
-        My Journey
+        Experience
       </h2>
       <div
         class="relative"
@@ -86,12 +86,7 @@ exports[`Journey matches snapshot 1`] = `
                 <p
                   class="text-slate-400 text-sm leading-relaxed"
                 >
-                  Designed and developed TimeIn, a full-stack productivity and workflow management application for CCK, owning the entire development lifecycle from architecture and implementation to deployment and ongoing maintenance. Built with Next.js, PostgreSQL, Prisma, and Azure integrations, including authentication and Outlook calendar integration. The application is deployed on Vercel and actively used by 100+ people across multiple countries in Central America.
-                </p>
-                <p
-                  class="text-slate-400 text-sm leading-relaxed"
-                >
-                  The application includes authentication, reporting, and task tracking features, and is deployed on Vercel.
+                  Designed and developed TimeIn, a full-stack productivity and workflow management application for CCK, owning the entire development lifecycle from architecture and implementation to deployment and ongoing maintenance. Built with Next.js, PostgreSQL, Prisma, and Azure integrations, including authentication and Outlook calendar integration. Deployed on Vercel and actively used by 100+ people across multiple countries in Central America.
                 </p>
                 <p
                   class="text-slate-400 text-sm leading-relaxed"

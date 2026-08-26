@@ -12,7 +12,7 @@ describe('Journey', () => {
 
   it('renders the section title', () => {
     render(<Journey />);
-    expect(screen.getByRole('heading', { name: /my journey/i })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: /experience/i })).toBeInTheDocument();
   });
 
   it('renders all jobs from data', () => {
