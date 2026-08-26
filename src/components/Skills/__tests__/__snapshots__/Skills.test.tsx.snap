@@ -54,7 +54,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="JavaScript"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/javascript.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -75,7 +77,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="TypeScript"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/typescript.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -96,7 +100,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="HTML5"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/html.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -117,7 +123,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="CSS"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/css.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -138,7 +146,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="C#"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/csharp.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -173,7 +183,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="React"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/react.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -194,7 +206,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="Next.js"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/nextjs.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -215,7 +229,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="Node.js"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/nodejs.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -236,7 +252,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="Tailwind CSS"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/tailwind.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -257,7 +275,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="Prisma"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/prisma.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -278,7 +298,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="Express"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/express.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -313,7 +335,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="PostgreSQL"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/postgresql.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -334,7 +358,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="MySQL"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/mysql.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -355,7 +381,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="SQL Server"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/sqlserver.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -376,7 +404,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="DynamoDB"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/dynamodb.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -411,7 +441,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="AWS"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/aws.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -432,7 +464,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="Microsoft Azure"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/azure.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -453,7 +487,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="AWS Lambda"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/lambda.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -474,7 +510,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="AWS S3"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/s3.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -495,7 +533,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="AWS EC2"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/ec2.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -516,7 +556,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="AWS Cognito"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/cognito.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -537,7 +579,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="AWS API Gateway"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/apigateway.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -558,7 +602,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="Vercel"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/vercel.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -593,7 +639,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="Git"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/git.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -614,7 +662,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="Docker"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/docker.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -635,7 +685,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="OpenCode"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/opencode.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -656,7 +708,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="GitHub Copilot"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/copilot.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
@@ -677,7 +731,9 @@ exports[`Skills matches snapshot 1`] = `
                 <img
                   alt="REST APIs"
                   class="w-5 h-5"
+                  height="20"
                   src="/icons/skills/api.svg"
+                  width="20"
                 />
                 <span
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"

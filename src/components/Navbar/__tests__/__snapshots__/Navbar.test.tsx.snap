@@ -13,7 +13,7 @@ exports[`Navbar matches snapshot 1`] = `
       >
         <a
           class="flex items-center group"
-          href="#"
+          href="#home"
         >
           <div
             class="relative"
@@ -21,7 +21,9 @@ exports[`Navbar matches snapshot 1`] = `
             <img
               alt="Kevin Fallas"
               class="h-8 w-auto transition-all duration-300 group-hover:opacity-80"
+              height="69"
               src="/logo.png"
+              width="482"
             />
             <span
               class="absolute -inset-2 rounded-full bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"

@@ -1,6 +1,7 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Analytics } from '@vercel/analytics/next';
 import { Inter } from "next/font/google";
+import { SITE } from "@/lib/site";
 import "./globals.css";
 
 const inter = Inter({
@@ -8,10 +9,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://kevin-fallas.vercel.app/"),
+  metadataBase: new URL(SITE.url),
   title: "Kevin Fallas | Software Engineer | 10+ Years Next.js & Node.js",
   description:
-    "Software Engineer with 10+ years building scalable systems. Expertise in Next.js, React, Node.js, PostgreSQL AWS, cloud architecture, and AI tools.",
+    "Software Engineer with 10+ years building scalable systems. Expertise in Next.js, React, Node.js, PostgreSQL, AWS, cloud architecture, and AI tools.",
   icons: {
     icon: "/favicon.ico",
   },
@@ -19,11 +20,11 @@ export const metadata: Metadata = {
     title: "Kevin Fallas | Software Engineer",
     description:
       "Full-stack engineer building scalable systems across the stack",
-    url: "https://kevin-fallas.vercel.app/",
+    url: SITE.url,
     siteName: "Kevin Fallas Portfolio",
     images: [
       {
-        url: "https://kevin-fallas.vercel.app/og-image.png", // Absolute URL required
+        url: `${SITE.url}og-image.png`, // Absolute URL required
         width: 1200,
         height: 630,
         alt: "Kevin Fallas - Software Engineer Portfolio",
@@ -52,7 +53,7 @@ export const metadata: Metadata = {
   applicationName: "Kevin Fallas Portfolio",
   creator: "Kevin Fallas",
   alternates: {
-    canonical: "https://kevin-fallas.vercel.app/",
+    canonical: SITE.url,
   },
   verification: {
     google: "MDK7mbtqjSnaV3eNn31p8HXn-qIx43Ov0E14W6ggQJg",
@@ -63,18 +64,23 @@ export const metadata: Metadata = {
     googleBot: "index, follow",
     nocache: false,
   },
-  viewport: "width=device-width, initial-scale=1, maximum-scale=5",
-  themeColor: "#0f172a", 
-  colorScheme: "dark",
   authors: [
     {
-      name: "Kevin Fallas",
-      url: "https://kevin-fallas.vercel.app/",
+      name: SITE.name,
+      url: SITE.url,
     },
   ],
   other: {
-    "contact": "kev.fallas@gmail.com",
+    "contact": SITE.email,
   },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  themeColor: "#0f172a",
+  colorScheme: "dark",
 };
 
 /**

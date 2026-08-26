@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -19,22 +20,26 @@ export default function About() {
           About Me
         </h2>
         <div className="flex flex-col md:flex-row items-center gap-10">
-          <div className="relative flex-shrink-0">
+          <motion.div
+            initial={{ scale: 0.95, opacity: 0 }}
+            whileInView={{ scale: 1, opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="relative flex-shrink-0"
+          >
             <div className="absolute inset-0 rounded-full bg-blue-500/20 blur-xl" />
             <div className="absolute inset-0 rounded-full border border-blue-500/30" />
-            <motion.img
-              initial={{ scale: 0.95, opacity: 0 }}
-              whileInView={{ scale: 1, opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
+            <Image
               src="/profile.png"
               alt="Kevin Fallas"
+              width={192}
+              height={192}
               className="relative w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-slate-800"
             />
-          </div>
+          </motion.div>
           <div className="text-slate-300 space-y-5">
             <p className="text-lg leading-relaxed">
-              Hi! I'm a Software Engineer with 10+ years of experience building
+              I'm a Software Engineer with 10+ years of experience building
               and scaling production systems for U.S. clients, working in
               remote, cross-functional teams.
             </p>

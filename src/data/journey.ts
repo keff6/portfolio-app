@@ -8,8 +8,7 @@ export const jobs: Job[] = [
     country: "Costa Rica (Remote)",
     period: "2023 - Present",
     description: [
-      "Designed and developed TimeIn, a full-stack productivity and workflow management application for CCK, owning the entire development lifecycle from architecture and implementation to deployment and ongoing maintenance. Built with Next.js, PostgreSQL, Prisma, and Azure integrations, including authentication and Outlook calendar integration. The application is deployed on Vercel and actively used by 100+ people across multiple countries in Central America.",
-      "The application includes authentication, reporting, and task tracking features, and is deployed on Vercel.",
+      "Designed and developed TimeIn, a full-stack productivity and workflow management application for CCK, owning the entire development lifecycle from architecture and implementation to deployment and ongoing maintenance. Built with Next.js, PostgreSQL, Prisma, and Azure integrations, including authentication and Outlook calendar integration. Deployed on Vercel and actively used by 100+ people across multiple countries in Central America.",
       "Also contributed to the architecture and frontend development of an online car marketplace using Next.js. Although the project was discontinued, it demonstrates experience in building scalable applications and adapting to evolving project requirements.",
     ],
   },

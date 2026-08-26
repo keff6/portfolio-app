@@ -109,7 +109,9 @@ exports[`Footer matches snapshot 1`] = `
         >
           © 
           2026
-           Kevin Fallas. Built with Next.js
+           
+          Kevin Fallas
+          . Built with Next.js
         </p>
       </div>
     </div>

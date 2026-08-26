@@ -36,7 +36,9 @@ exports[`About matches snapshot 1`] = `
           <img
             alt="Kevin Fallas"
             class="relative w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-slate-800"
+            height="192"
             src="/profile.png"
+            width="192"
           />
         </div>
         <div

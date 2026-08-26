@@ -11,6 +11,8 @@ export const projects: Project[] = [
     ],
     tags: ["Next.js", "Vercel", "Prisma", "Tailwind CSS", "Azure", "PostgreSQL"],
     thumbnail: "/images/timein.png",
+    thumbnailWidth: 1914,
+    thumbnailHeight: 920,
   },
   {
     id: 2,
@@ -21,6 +23,8 @@ export const projects: Project[] = [
     ],
     tags: ["React", "NodeJS", "Express", "MySQL", "Bootstrap", "Next.js", "TypeScript", "PostgreSQL", "Prisma", "AI-assisted development"],
     thumbnail: "/images/gamescollection.png",
+    thumbnailWidth: 1897,
+    thumbnailHeight: 901,
     githubUrl: "https://github.com/keff6/gamescollection_ai",
     liveUrl: "https://gamescollection-kappa.vercel.app/",
   },

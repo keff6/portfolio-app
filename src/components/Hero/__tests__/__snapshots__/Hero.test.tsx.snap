@@ -86,6 +86,7 @@ exports[`Hero matches snapshot 1`] = `
           target="_blank"
         >
           <svg
+            class=""
             fill="currentColor"
             height="20"
             viewBox="0 0 24 24"
@@ -104,6 +105,7 @@ exports[`Hero matches snapshot 1`] = `
           target="_blank"
         >
           <svg
+            class=""
             fill="currentColor"
             height="20"
             viewBox="0 0 24 24"

@@ -7,6 +7,9 @@ export interface Project {
   description: string[];
   tags: string[];
   thumbnail?: string;
+  /** Intrinsic dimensions of `thumbnail`, required by next/image. */
+  thumbnailWidth?: number;
+  thumbnailHeight?: number;
   githubUrl?: string;
   liveUrl?: string;
 }

@@ -33,15 +33,19 @@ exports[`Projects matches snapshot 1`] = `
           <div
             class="relative bg-slate-900/80 backdrop-blur-sm p-6 rounded-xl border border-slate-800 hover:border-blue-500/30 transition-all duration-300"
           >
-            <div
-              class="overflow-hidden rounded-lg mb-4 cursor-pointer"
+            <button
+              aria-label="View larger preview of TimeIn - Team Productivity App"
+              class="block w-full overflow-hidden rounded-lg mb-4 cursor-pointer"
+              type="button"
             >
               <img
                 alt="TimeIn - Team Productivity App"
                 class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-105"
+                height="920"
                 src="/images/timein.png"
+                width="1914"
               />
-            </div>
+            </button>
             <h3
               class="text-xl font-semibold text-white mb-3 group-hover:text-blue-100 transition-colors"
             >
@@ -114,15 +118,19 @@ exports[`Projects matches snapshot 1`] = `
           <div
             class="relative bg-slate-900/80 backdrop-blur-sm p-6 rounded-xl border border-slate-800 hover:border-blue-500/30 transition-all duration-300"
           >
-            <div
-              class="overflow-hidden rounded-lg mb-4 cursor-pointer"
+            <button
+              aria-label="View larger preview of GamesCollection - Personal Game Library Manager"
+              class="block w-full overflow-hidden rounded-lg mb-4 cursor-pointer"
+              type="button"
             >
               <img
                 alt="GamesCollection - Personal Game Library Manager"
                 class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-105"
+                height="901"
                 src="/images/gamescollection.png"
+                width="1897"
               />
-            </div>
+            </button>
             <h3
               class="text-xl font-semibold text-white mb-3 group-hover:text-blue-100 transition-colors"
             >
@@ -134,12 +142,12 @@ exports[`Projects matches snapshot 1`] = `
               <p
                 class="text-slate-400 text-sm leading-relaxed"
               >
-                GamesCollection is a personal web application designed to manage and track my video game collection. Built with React, Node and MySQL, it allows users to organize games, track progress, and maintain a structured library.
+                GamesCollection is a full-stack web application for managing and tracking a personal video game collection. Originally built with React, Node.js, and MySQL, it has been rebuilt with Next.js, TypeScript, PostgreSQL, and Prisma as a modern full-stack application.
               </p>
               <p
                 class="text-slate-400 text-sm leading-relaxed"
               >
-                This project focuses on building a clean user experience while applying full-stack concepts in a practical, self-driven environment.
+                The rebuild was developed and deployed using an AI-assisted engineering workflow, combining specification-driven development, AI-assisted implementation, testing, code review, and iterative refinement. The project demonstrates end-to-end ownership while exploring modern approaches to building maintainable and reliable software.
               </p>
             </div>
             <div
@@ -170,17 +178,43 @@ exports[`Projects matches snapshot 1`] = `
               >
                 Bootstrap
               </span>
+              <span
+                class="px-3 py-1 text-xs font-medium bg-slate-800/80 text-blue-300 rounded-full border border-slate-700/50"
+              >
+                Next.js
+              </span>
+              <span
+                class="px-3 py-1 text-xs font-medium bg-slate-800/80 text-blue-300 rounded-full border border-slate-700/50"
+              >
+                TypeScript
+              </span>
+              <span
+                class="px-3 py-1 text-xs font-medium bg-slate-800/80 text-blue-300 rounded-full border border-slate-700/50"
+              >
+                PostgreSQL
+              </span>
+              <span
+                class="px-3 py-1 text-xs font-medium bg-slate-800/80 text-blue-300 rounded-full border border-slate-700/50"
+              >
+                Prisma
+              </span>
+              <span
+                class="px-3 py-1 text-xs font-medium bg-slate-800/80 text-blue-300 rounded-full border border-slate-700/50"
+              >
+                AI-assisted development
+              </span>
             </div>
             <div
               class="flex gap-5"
             >
               <a
                 class="flex items-center gap-2 text-slate-400 hover:text-white transition-colors"
-                href="https://github.com/keff6/gamescollection_fe"
+                href="https://github.com/keff6/gamescollection_ai"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 <svg
+                  class=""
                   fill="currentColor"
                   height="18"
                   viewBox="0 0 24 24"
@@ -198,7 +232,7 @@ exports[`Projects matches snapshot 1`] = `
               </a>
               <a
                 class="flex items-center gap-2 text-slate-400 hover:text-white transition-colors"
-                href="https://gamescollection-app.onrender.com/"
+                href="https://gamescollection-kappa.vercel.app/"
                 rel="noopener noreferrer"
                 target="_blank"
               >

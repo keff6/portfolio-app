@@ -18,7 +18,7 @@ export default function Journey() {
         className="max-w-4xl mx-auto relative z-10"
       >
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-center">
-          My Journey
+          Experience
         </h2>
         <div className="relative">
           <div className="absolute left-[11px] top-4 bottom-4 w-0.5 bg-gradient-to-b from-blue-500/40 via-blue-500/20 to-transparent" />

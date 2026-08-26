@@ -1,49 +1,28 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
+import { useScrolled } from "@/hooks/useScrolled";
+import { useActiveSection } from "@/hooks/useActiveSection";
 
 const navLinks = [
   { href: "#home", label: "Home" },
   { href: "#about", label: "About" },
   { href: "#skills", label: "Skills" },
-  { href: "#journey", label: "Journey" },
+  { href: "#journey", label: "Experience" },
   { href: "#projects", label: "Projects" },
 ];
 
+const sectionIds = navLinks.map((link) => link.href.slice(1));
+
+const MOBILE_MENU_CLOSE_DELAY_MS = 150;
+
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
-  const [activeSection, setActiveSection] = useState("");
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY + 100;
-      for (const link of navLinks) {
-        const section = document.getElementById(`${link.href.slice(1)}`);
-        if (section) {
-          const sectionTop = (section as HTMLElement).offsetTop;
-          const sectionHeight = (section as HTMLElement).offsetHeight;
-          if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-            setActiveSection(link.href.slice(1));
-            break;
-          }
-        }
-      }
-    };
-    window.addEventListener("scroll", handleScroll);
-    handleScroll();
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  const scrolled = useScrolled();
+  const activeSection = useActiveSection(sectionIds);
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     const href = (e.currentTarget as HTMLAnchorElement).getAttribute("href") || "";
@@ -51,7 +30,7 @@ export default function Navbar() {
     setIsOpen(false);
     setTimeout(() => {
       document.getElementById(href.slice(1))?.scrollIntoView({ behavior: "smooth" });
-    }, 150);
+    }, MOBILE_MENU_CLOSE_DELAY_MS);
   };
 
   return (
@@ -64,11 +43,14 @@ export default function Navbar() {
     >
       <div className="max-w-6xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <a href="#" className="flex items-center group">
+          <a href="#home" onClick={handleNavClick} className="flex items-center group">
             <div className="relative">
-              <img
+              <Image
                 src="/logo.png"
                 alt="Kevin Fallas"
+                width={482}
+                height={69}
+                priority
                 className="h-8 w-auto transition-all duration-300 group-hover:opacity-80"
               />
               {!scrolled && (
@@ -81,6 +63,7 @@ export default function Navbar() {
               <a
                 key={link.href}
                 href={link.href}
+                onClick={handleNavClick}
                 className={`relative px-4 py-2 text-sm font-medium transition-all duration-200 ${
                   activeSection === link.href.slice(1)
                     ? "text-white"

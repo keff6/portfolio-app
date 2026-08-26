@@ -12,7 +12,7 @@ describe('Navbar', () => {
   it('renders the logo link', () => {
     render(<Navbar />);
     const logoLink = screen.getByRole('link', { name: 'Kevin Fallas' });
-    expect(logoLink).toHaveAttribute('href', '#');
+    expect(logoLink).toHaveAttribute('href', '#home');
   });
 
   it('renders all navigation links', () => {

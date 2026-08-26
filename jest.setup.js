@@ -44,3 +44,19 @@ jest.mock('framer-motion', () => {
     AnimatePresence: ({ children }) => children,
   };
 });
+
+jest.mock('next/image', () => {
+  const React = require('react');
+
+  return {
+    __esModule: true,
+    default: ({ fill, priority, sizes, unoptimized, loader, quality, ...rest }) =>
+      React.createElement('img', rest),
+  };
+});
+
+global.IntersectionObserver = class IntersectionObserver {
+  observe() {}
+  unobserve() {}
+  disconnect() {}
+};

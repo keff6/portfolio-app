@@ -1,6 +1,8 @@
 export interface Skill {
   name: string;
   icon?: string;
+  /** Short label shown when no icon is available (defaults to the first two letters of `name`). */
+  shortLabel?: string;
 }
 
 export interface SkillCategory {
