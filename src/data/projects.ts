@@ -16,12 +16,12 @@ export const projects: Project[] = [
     id: 2,
     title: "GamesCollection - Personal Game Library Manager",
     description: [
-      "GamesCollection is a personal web application designed to manage and track my video game collection. Built with React, Node and MySQL, it allows users to organize games, track progress, and maintain a structured library.",
-      "This project focuses on building a clean user experience while applying full-stack concepts in a practical, self-driven environment.",
+      "GamesCollection is a full-stack web application for managing and tracking a personal video game collection. Originally built with React, Node.js, and MySQL, it has been rebuilt with Next.js, TypeScript, PostgreSQL, and Prisma as a modern full-stack application.",
+      "The rebuild was developed and deployed using an AI-assisted engineering workflow, combining specification-driven development, AI-assisted implementation, testing, code review, and iterative refinement. The project demonstrates end-to-end ownership while exploring modern approaches to building maintainable and reliable software.",
     ],
-    tags: ["React", "NodeJS", "Express", "MySQL", "Bootstrap"],
+    tags: ["React", "NodeJS", "Express", "MySQL", "Bootstrap", "Next.js", "TypeScript", "PostgreSQL", "Prisma", "AI-assisted development"],
     thumbnail: "/images/gamescollection.png",
-    githubUrl: "https://github.com/keff6/gamescollection_fe",
-    liveUrl: "https://gamescollection-app.onrender.com/",
+    githubUrl: "https://github.com/keff6/gamescollection_ai",
+    liveUrl: "https://gamescollection-kappa.vercel.app/",
   },
 ];

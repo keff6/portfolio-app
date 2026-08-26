@@ -3,12 +3,12 @@ import { Job } from "@/lib/types";
 export const jobs: Job[] = [
   {
     id: 1,
-    title: "Software Engineer",
+    title: "Full Stack Software Engineer",
     company: "Freelance",
     country: "Costa Rica (Remote)",
     period: "2023 - Present",
     description: [
-      "Designed and developed TimeIn, a full-stack web application for CCK focused on improving team productivity and workflow management. Owned the entire development lifecycle, from architecture and implementation to deployment and maintenance, using Next.js and backend services.",
+      "Designed and developed TimeIn, a full-stack productivity and workflow management application for CCK, owning the entire development lifecycle from architecture and implementation to deployment and ongoing maintenance. Built with Next.js, PostgreSQL, Prisma, and Azure integrations, including authentication and Outlook calendar integration. The application is deployed on Vercel and actively used by 100+ people across multiple countries in Central America.",
       "The application includes authentication, reporting, and task tracking features, and is deployed on Vercel.",
       "Also contributed to the architecture and frontend development of an online car marketplace using Next.js. Although the project was discontinued, it demonstrates experience in building scalable applications and adapting to evolving project requirements.",
     ],
