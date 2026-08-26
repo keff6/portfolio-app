@@ -3,7 +3,7 @@
 exports[`Hero matches snapshot 1`] = `
 <div>
   <section
-    class="min-h-screen flex items-center justify-center px-6 relative overflow-hidden"
+    class="min-h-dvh flex items-center justify-center px-6 relative overflow-hidden"
     id="home"
   >
     <div
@@ -50,7 +50,7 @@ exports[`Hero matches snapshot 1`] = `
         class="flex flex-wrap gap-4 justify-center"
       >
         <a
-          class="group flex items-center gap-2 px-6 py-3 bg-blue-500 text-white rounded-lg transition-all duration-300 hover:bg-blue-600 hover:shadow-[0_0_20px_rgba(59,130,246,0.4)]"
+          class="group flex items-center gap-2 px-6 py-3 bg-blue-500 text-white rounded-lg transition-all duration-300 hover:bg-blue-600 hover:shadow-[0_0_20px_rgba(59,130,246,0.4)] hover:scale-[1.02] active:scale-[0.98]"
           href="mailto:kev.fallas@gmail.com"
         >
           <svg
@@ -80,7 +80,7 @@ exports[`Hero matches snapshot 1`] = `
           Email Me
         </a>
         <a
-          class="group flex items-center gap-2 px-6 py-3 bg-slate-800/50 border border-slate-700 text-white rounded-lg transition-all duration-300 hover:bg-slate-700 hover:border-slate-600"
+          class="group flex items-center gap-2 px-6 py-3 bg-slate-800/50 border border-slate-700 text-white rounded-lg transition-all duration-300 hover:bg-slate-700 hover:border-slate-600 hover:scale-[1.02] active:scale-[0.98]"
           href="https://www.linkedin.com/in/kevin-fallas/"
           rel="noopener noreferrer"
           target="_blank"
@@ -99,7 +99,7 @@ exports[`Hero matches snapshot 1`] = `
           LinkedIn
         </a>
         <a
-          class="group flex items-center gap-2 px-6 py-3 bg-slate-800/50 border border-slate-700 text-white rounded-lg transition-all duration-300 hover:bg-slate-700 hover:border-slate-600"
+          class="group flex items-center gap-2 px-6 py-3 bg-slate-800/50 border border-slate-700 text-white rounded-lg transition-all duration-300 hover:bg-slate-700 hover:border-slate-600 hover:scale-[1.02] active:scale-[0.98]"
           href="https://github.com/keff6"
           rel="noopener noreferrer"
           target="_blank"
@@ -118,7 +118,7 @@ exports[`Hero matches snapshot 1`] = `
           GitHub
         </a>
         <a
-          class="group flex items-center gap-2 px-6 py-3 border border-slate-700 text-slate-300 rounded-lg transition-all duration-300 hover:border-slate-500 hover:text-white"
+          class="group flex items-center gap-2 px-6 py-3 border border-slate-700 text-slate-300 rounded-lg transition-all duration-300 hover:border-slate-500 hover:text-white hover:scale-[1.02] active:scale-[0.98]"
           download="Kevin-Fallas_resume.pdf"
           href="/Kevin-Fallas_resume.pdf"
         >
@@ -156,7 +156,7 @@ exports[`Hero matches snapshot 1`] = `
       class="absolute bottom-8 left-1/2 -translate-x-1/2"
     >
       <div
-        class="w-6 h-6 text-slate-500"
+        class="w-6 h-6 text-slate-500 animate-bounce"
       >
         <svg
           fill="none"

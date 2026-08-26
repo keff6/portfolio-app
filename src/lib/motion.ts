@@ -11,15 +11,33 @@ export const STAGGER_STEP = {
   item: 0.05,
 } as const;
 
-/** Fade-and-rise-in triggered when the element scrolls into view. */
-export const fadeInUp = {
-  initial: { opacity: 0, y: 20 },
-  whileInView: { opacity: 1, y: 0 },
-  viewport: { once: true },
+/**
+ * Reveals content slightly before it's fully scrolled into view, so fast
+ * mobile scrolling doesn't outrun the intersection trigger.
+ */
+export const revealViewport = {
+  once: true,
+  margin: "0px 0px -10% 0px",
 } as const;
 
-/** Fade-and-rise-in that plays immediately on mount (above-the-fold content). */
-export const fadeInUpOnMount = {
-  initial: { opacity: 0, y: 20 },
-  animate: { opacity: 1, y: 0 },
+/** Hidden/visible pairs consumed by `Reveal`/`RevealGroup`/`RevealItem`. */
+export const itemVariants = {
+  fadeInUp: {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0 },
+  },
+  fadeIn: {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1 },
+  },
+  scaleIn: {
+    hidden: { opacity: 0, scale: 0.95 },
+    visible: { opacity: 1, scale: 1 },
+  },
+  slideInLeft: {
+    hidden: { opacity: 0, x: -20 },
+    visible: { opacity: 1, x: 0 },
+  },
 } as const;
+
+export type ItemVariant = keyof typeof itemVariants;

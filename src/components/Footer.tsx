@@ -1,10 +1,8 @@
-"use client";
-
-import { motion } from "framer-motion";
 import { Mail } from "lucide-react";
 import { GithubIcon } from "@/components/icons/GithubIcon";
 import { LinkedinIcon } from "@/components/icons/LinkedinIcon";
 import { SITE } from "@/lib/site";
+import { Reveal } from "@/components/motion/Reveal";
 
 export default function Footer() {
   return (
@@ -13,50 +11,38 @@ export default function Footer() {
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] rounded-full bg-blue-500/5 blur-[100px]" />
       </div>
       <div className="max-w-4xl mx-auto text-center relative z-10">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          className="mb-8"
-        >
+        <Reveal duration={0.5} className="mb-8">
           <h3 className="text-xl font-semibold text-white mb-4">Let's Connect</h3>
           <p className="text-slate-400 mb-8 max-w-md mx-auto">
             Feel free to reach out for collaborations, opportunities, or just to say hello.
           </p>
-        </motion.div>
+        </Reveal>
         <div className="flex justify-center gap-4 mb-10">
-          <motion.a
+          <a
             href={`mailto:${SITE.email}`}
-            whileHover={{ scale: 1.05, y: -2 }}
-            whileTap={{ scale: 0.95 }}
-            className="group p-4 bg-slate-900/80 border border-slate-800 rounded-xl hover:border-blue-500/30 transition-all duration-300"
+            className="group p-4 bg-slate-900/80 border border-slate-800 rounded-xl hover:border-blue-500/30 hover:-translate-y-0.5 hover:scale-105 active:scale-95 transition-all duration-300"
             aria-label="Email"
           >
             <Mail size={20} className="text-slate-400 group-hover:text-white transition-colors" />
-          </motion.a>
-          <motion.a
+          </a>
+          <a
             href={SITE.linkedin}
             target="_blank"
             rel="noopener noreferrer"
-            whileHover={{ scale: 1.05, y: -2 }}
-            whileTap={{ scale: 0.95 }}
-            className="group p-4 bg-slate-900/80 border border-slate-800 rounded-xl hover:border-blue-500/30 transition-all duration-300"
+            className="group p-4 bg-slate-900/80 border border-slate-800 rounded-xl hover:border-blue-500/30 hover:-translate-y-0.5 hover:scale-105 active:scale-95 transition-all duration-300"
             aria-label="LinkedIn"
           >
             <LinkedinIcon size={20} className="text-slate-400 group-hover:text-white transition-colors" />
-          </motion.a>
-          <motion.a
+          </a>
+          <a
             href={SITE.github}
             target="_blank"
             rel="noopener noreferrer"
-            whileHover={{ scale: 1.05, y: -2 }}
-            whileTap={{ scale: 0.95 }}
-            className="group p-4 bg-slate-900/80 border border-slate-800 rounded-xl hover:border-blue-500/30 transition-all duration-300"
+            className="group p-4 bg-slate-900/80 border border-slate-800 rounded-xl hover:border-blue-500/30 hover:-translate-y-0.5 hover:scale-105 active:scale-95 transition-all duration-300"
             aria-label="GitHub"
           >
             <GithubIcon size={20} className="text-slate-400 group-hover:text-white transition-colors" />
-          </motion.a>
+          </a>
         </div>
         <div className="pt-8 border-t border-slate-800/50">
           <p className="text-slate-500 text-sm">
