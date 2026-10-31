@@ -12,7 +12,17 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Generated output (Vercel build, jest coverage report).
+    ".vercel/**",
+    "coverage/**",
   ]),
+  // Jest loads this setup file as CommonJS, so require() is the only option.
+  {
+    files: ["jest.setup.js"],
+    rules: {
+      "@typescript-eslint/no-require-imports": "off",
+    },
+  },
 ]);
 
 export default eslintConfig;
