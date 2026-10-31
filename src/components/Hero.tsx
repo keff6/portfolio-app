@@ -22,7 +22,7 @@ export default function Hero() {
           Software Engineer
         </p>
         <p className="text-slate-400 text-lg mb-12 max-w-lg mx-auto leading-relaxed">
-          Building scalable software across the stack, focused on delivering reliable solutions in high-impact, real-world environments.
+          Building reliable, scalable software across the stack, leveraging AI to improve development workflows and solve real-world problems.
         </p>
         <div className="flex flex-wrap gap-4 justify-center">
           <a

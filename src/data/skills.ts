@@ -59,9 +59,18 @@ export const skills: SkillCategory[] = [
     skills: [
       { name: "Git", icon: "git" },
       { name: "Docker", icon: "docker" },
+      { name: "Claude Code", icon: "claude-code" },
       { name: "OpenCode", icon: "opencode" },
       { name: "GitHub Copilot", icon: "copilot" },
       { name: "REST APIs", icon: "api" },
+    ],
+  },
+  {
+    title: "Currently Exploring",
+    skills: [
+      { name: "Go", icon: "go" },
+      { name: "GraphQL", icon: "graphql" },
+      { name: "LangChain", icon: "langchain" },
     ],
   },
 ];
