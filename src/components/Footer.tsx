@@ -11,7 +11,7 @@ export default function Footer() {
       </div>
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <div className="mb-8">
-          <h3 className="text-xl font-semibold text-white mb-4">Let's Connect</h3>
+          <h3 className="text-xl font-semibold text-white mb-4">Let&apos;s Connect</h3>
           <p className="text-slate-400 mb-8 max-w-md mx-auto">
             Feel free to reach out for collaborations, opportunities, or just to say hello.
           </p>

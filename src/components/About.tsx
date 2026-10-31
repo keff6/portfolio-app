@@ -24,19 +24,19 @@ export default function About() {
           </div>
           <div className="text-slate-300 space-y-5">
             <p className="text-lg leading-relaxed">
-              I'm a Software Engineer with 10+ years of experience building
+              I&apos;m a Software Engineer with 10+ years of experience building
               and scaling production systems for U.S. clients, working in
               remote, cross-functional teams.
             </p>
             <p className="text-lg leading-relaxed">
-              I've worked across the full stack, with experience building
+              I&apos;ve worked across the full stack, with experience building
               user-facing applications as well as designing APIs, data models,
               and cloud-based solutions on AWS. I enjoy owning features
               end-to-end, from initial idea to production, with a focus on
               reliability, performance, and real-world impact.
             </p>
             <p className="text-lg leading-relaxed">
-              When I'm not coding, you can find me exploring new
+              When I&apos;m not coding, you can find me exploring new
               technologies, contributing to open source, or sharing knowledge
               with the community.
             </p>
