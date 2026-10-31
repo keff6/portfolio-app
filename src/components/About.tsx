@@ -1,24 +1,23 @@
 import Image from "next/image";
+import profile from "../../public/profile.png";
 
 export default function About() {
   return (
     <section id="about" className="py-24 px-6 relative">
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-1/2 left-0 w-[400px] h-[400px] rounded-full bg-blue-500/3 blur-[80px]" />
-      </div>
       <div className="max-w-4xl mx-auto relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-center">
           About Me
         </h2>
         <div className="flex flex-col md:flex-row items-center gap-10">
           <div className="relative flex-shrink-0">
-            <div className="absolute inset-0 rounded-full bg-blue-500/20 blur-xl" />
             <div className="absolute inset-0 rounded-full border border-blue-500/30" />
             <Image
-              src="/profile.png"
+              src={profile}
               alt="Kevin Fallas"
               width={192}
               height={192}
+              loading="eager"
+              placeholder="blur"
               className="relative w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-slate-800"
             />
           </div>

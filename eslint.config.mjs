@@ -16,9 +16,9 @@ const eslintConfig = defineConfig([
     ".vercel/**",
     "coverage/**",
   ]),
-  // Jest loads this setup file as CommonJS, so require() is the only option.
+  // Jest loads these files as CommonJS, so require() is the only option.
   {
-    files: ["jest.setup.js"],
+    files: ["jest.setup.js", "jest.fileTransform.js"],
     rules: {
       "@typescript-eslint/no-require-imports": "off",
     },

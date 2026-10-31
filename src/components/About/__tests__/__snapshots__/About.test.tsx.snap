@@ -7,13 +7,6 @@ exports[`About matches snapshot 1`] = `
     id="about"
   >
     <div
-      class="absolute inset-0 overflow-hidden pointer-events-none"
-    >
-      <div
-        class="absolute top-1/2 left-0 w-[400px] h-[400px] rounded-full bg-blue-500/3 blur-[80px]"
-      />
-    </div>
-    <div
       class="max-w-4xl mx-auto relative z-10"
     >
       <h2
@@ -28,15 +21,13 @@ exports[`About matches snapshot 1`] = `
           class="relative flex-shrink-0"
         >
           <div
-            class="absolute inset-0 rounded-full bg-blue-500/20 blur-xl"
-          />
-          <div
             class="absolute inset-0 rounded-full border border-blue-500/30"
           />
           <img
             alt="Kevin Fallas"
             class="relative w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-slate-800"
             height="192"
+            loading="eager"
             src="/profile.png"
             width="192"
           />

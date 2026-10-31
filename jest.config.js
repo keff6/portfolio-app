@@ -14,6 +14,7 @@ const config = {
     '^.+\\.(ts|tsx)$': ['ts-jest', {
       tsconfig: 'tsconfig.spec.json',
     }],
+    '^.+\\.(png|jpg|jpeg|webp)$': '<rootDir>/jest.fileTransform.js',
   },
   transformIgnorePatterns: [
     '/node_modules/(?!(@testing-library)/)',

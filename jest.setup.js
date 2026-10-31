@@ -58,8 +58,8 @@ jest.mock('next/image', () => {
 
   return {
     __esModule: true,
-    default: ({ fill, priority, sizes, unoptimized, loader, quality, ...rest }) =>
-      React.createElement('img', rest),
+    default: ({ fill, priority, sizes, unoptimized, loader, quality, placeholder, blurDataURL, src, ...rest }) =>
+      React.createElement('img', { ...rest, src: typeof src === 'string' ? src : src.src }),
   };
 });
 
