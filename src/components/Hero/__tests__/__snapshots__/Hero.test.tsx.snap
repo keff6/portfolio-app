@@ -7,16 +7,6 @@ exports[`Hero matches snapshot 1`] = `
     id="home"
   >
     <div
-      class="absolute inset-0 overflow-hidden pointer-events-none"
-    >
-      <div
-        class="absolute -top-[40%] -right-[20%] w-[600px] h-[600px] rounded-full bg-blue-500/5 blur-[100px]"
-      />
-      <div
-        class="absolute -bottom-[40%] -left-[20%] w-[600px] h-[600px] rounded-full bg-blue-500/5 blur-[100px]"
-      />
-    </div>
-    <div
       class="text-center max-w-3xl relative z-10"
     >
       <div
