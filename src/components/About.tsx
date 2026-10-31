@@ -3,7 +3,7 @@ import profile from "../../public/profile.png";
 
 export default function About() {
   return (
-    <section id="about" className="py-24 px-6 relative">
+    <section id="about" className="py-16 px-6 relative">
       <div className="max-w-4xl mx-auto relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-center">
           About Me

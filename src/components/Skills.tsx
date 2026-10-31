@@ -6,7 +6,7 @@ const getShortLabel = (skill: Skill): string =>
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-24 px-6 relative">
+    <section id="skills" className="py-16 px-6 relative">
       <div className="absolute inset-0 bg-slate-950/50" />
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] rounded-full bg-blue-500/5 blur-[100px]" />

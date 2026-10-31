@@ -13,7 +13,7 @@ export default function Projects() {
 
   return (
     <>
-      <section id="projects" className="py-24 px-6 relative">
+      <section id="projects" className="py-16 px-6 relative">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute -top-[20%] left-1/3 w-[600px] h-[600px] rounded-full bg-blue-500/5 blur-[100px]" />
         </div>

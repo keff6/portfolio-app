@@ -2,7 +2,7 @@ import { jobs } from "@/data/journey";
 
 export default function Journey() {
   return (
-    <section id="journey" className="py-24 px-6 relative">
+    <section id="journey" className="py-16 px-6 relative">
       <div className="absolute inset-0 bg-slate-950/50" />
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-1/3 right-0 w-[500px] h-[500px] rounded-full bg-blue-500/5 blur-[100px]" />
