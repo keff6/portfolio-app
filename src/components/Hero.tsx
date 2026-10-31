@@ -5,7 +5,7 @@ import { SITE } from "@/lib/site";
 
 export default function Hero() {
   return (
-    <section id="home" className="min-h-dvh flex items-center justify-center px-6 relative overflow-hidden">
+    <section id="home" className="min-h-svh flex items-center justify-center px-6 relative overflow-hidden">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-[40%] -right-[20%] w-[600px] h-[600px] rounded-full bg-blue-500/5 blur-[100px]" />
         <div className="absolute -bottom-[40%] -left-[20%] w-[600px] h-[600px] rounded-full bg-blue-500/5 blur-[100px]" />

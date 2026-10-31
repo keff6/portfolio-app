@@ -1,6 +1,8 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useScrolled } from "@/hooks/useScrolled";
+
+const VISIBILITY_THRESHOLD_PX = 300;
 
 /**
  * Renders a scroll-to-top button that appears when user scrolls down.
@@ -9,16 +11,7 @@ import { useState, useEffect } from "react";
  * @returns The ScrollToTop button JSX element
  */
 export default function ScrollToTop() {
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const toggleVisibility = () => {
-      setIsVisible(window.scrollY > 300);
-    };
-
-    window.addEventListener("scroll", toggleVisibility);
-    return () => window.removeEventListener("scroll", toggleVisibility);
-  }, []);
+  const isVisible = useScrolled(VISIBILITY_THRESHOLD_PX);
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
