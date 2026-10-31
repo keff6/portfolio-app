@@ -21,7 +21,7 @@ describe('Hero', () => {
 
   it('renders the tagline', () => {
     render(<Hero />);
-    expect(screen.getByText(/building scalable software/i)).toBeInTheDocument();
+    expect(screen.getByText(/building reliable, scalable software/i)).toBeInTheDocument();
   });
 
   it('renders all 4 buttons', () => {

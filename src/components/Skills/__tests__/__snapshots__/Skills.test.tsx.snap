@@ -683,6 +683,29 @@ exports[`Skills matches snapshot 1`] = `
                 class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
               >
                 <img
+                  alt="Claude Code"
+                  class="w-5 h-5"
+                  height="20"
+                  src="/icons/skills/claude-code.svg"
+                  width="20"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  Claude Code
+                </span>
+              </div>
+            </div>
+            <div
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
+            >
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+              />
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
+              >
+                <img
                   alt="OpenCode"
                   class="w-5 h-5"
                   height="20"
@@ -739,6 +762,89 @@ exports[`Skills matches snapshot 1`] = `
                   class="text-sm text-slate-300 group-hover:text-white transition-colors"
                 >
                   REST APIs
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3
+            class="text-lg font-semibold text-blue-400 mb-5 flex items-center gap-3"
+          >
+            <span
+              class="w-8 h-px bg-gradient-to-r from-blue-500/50 to-transparent"
+            />
+            Currently Exploring
+          </h3>
+          <div
+            class="flex flex-wrap gap-3"
+          >
+            <div
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
+            >
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+              />
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
+              >
+                <img
+                  alt="Go"
+                  class="w-5 h-5"
+                  height="20"
+                  src="/icons/skills/go.svg"
+                  width="20"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  Go
+                </span>
+              </div>
+            </div>
+            <div
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
+            >
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+              />
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
+              >
+                <img
+                  alt="GraphQL"
+                  class="w-5 h-5"
+                  height="20"
+                  src="/icons/skills/graphql.svg"
+                  width="20"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  GraphQL
+                </span>
+              </div>
+            </div>
+            <div
+              class="group relative hover:scale-[1.03] transition-transform duration-300"
+            >
+              <div
+                class="absolute inset-0 rounded-lg bg-blue-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+              />
+              <div
+                class="relative flex items-center gap-2 px-4 py-2.5 bg-slate-900/80 border border-slate-800 rounded-lg group-hover:border-blue-500/40 transition-all duration-300"
+              >
+                <img
+                  alt="LangChain"
+                  class="w-5 h-5"
+                  height="20"
+                  src="/icons/skills/langchain.svg"
+                  width="20"
+                />
+                <span
+                  class="text-sm text-slate-300 group-hover:text-white transition-colors"
+                >
+                  LangChain
                 </span>
               </div>
             </div>
