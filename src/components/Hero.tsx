@@ -47,8 +47,8 @@ export default function Hero() {
             GitHub
           </a>
           <a
-            href="/Kevin-Fallas_resume.pdf"
-            download="Kevin-Fallas_resume.pdf"
+            href="/KevinFallas-resume.pdf"
+            download="KevinFallas-resume.pdf"
             className="group flex items-center gap-2 px-6 py-3 border border-slate-700 text-slate-300 rounded-lg transition-all duration-300 hover:border-slate-500 hover:text-white hover:scale-[1.02] active:scale-[0.98]"
           >
             <FileDown size={20} />
