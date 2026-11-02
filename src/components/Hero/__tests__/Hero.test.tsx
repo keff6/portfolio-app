@@ -57,8 +57,8 @@ describe('Hero', () => {
   it('renders resume download link with correct href', () => {
     render(<Hero />);
     const resumeBtn = screen.getByRole('link', { name: /resume/i });
-    expect(resumeBtn).toHaveAttribute('href', '/Kevin-Fallas_resume.pdf');
-    expect(resumeBtn).toHaveAttribute('download', 'Kevin-Fallas_resume.pdf');
+    expect(resumeBtn).toHaveAttribute('href', '/KevinFallas-resume.pdf');
+    expect(resumeBtn).toHaveAttribute('download', 'KevinFallas-resume.pdf');
   });
 
   it('matches snapshot', () => {
